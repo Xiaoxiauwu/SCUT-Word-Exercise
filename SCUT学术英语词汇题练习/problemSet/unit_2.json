@@ -1,0 +1,666 @@
+{
+	"name" : "Unit 2",
+	"problems" : 
+	[
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"acquire",
+				"achieve",
+				"obtain",
+				"perform"
+			],
+			"problem" : "To ___ this purpose, the commission stresses the importance of having reliable and comparable information on health interventions."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"accomplishment",
+				"achievement",
+				"registration",
+				"acquisition"
+			],
+			"problem" : "The ___ of huge amounts of data has helped our research enormously."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"organization",
+				"headquarter",
+				"government",
+				"administration"
+			],
+			"problem" : "The editorial criticizes the college's ___ for not taking a stand on the issue."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"affect",
+				"react",
+				"attack",
+				"impress"
+			],
+			"problem" : "This assumption does not ___ the qualitative conclusions derived in the paper."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"relevant",
+				"contrary",
+				"complicated",
+				"appropriate"
+			],
+			"problem" : "There has been research on teaching techniques for young learners, but what task types are ___ and efficient for testing children is an under-researched area."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"sides",
+				"faces",
+				"points",
+				"aspects"
+			],
+			"problem" : "We must recognize that all ___ of human cultures are closely integrated."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"alienation",
+				"supervision",
+				"assistance",
+				"resistance"
+			],
+			"problem" : "The minister revealed that the banking industry needed ___ from the taxpayer to survive."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"views",
+				"factors",
+				"schools",
+				"categories"
+			],
+			"problem" : "Our responsibilities fall into two main ___: a coordination of branch recruitment work and our own independent initiatives."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"division",
+				"chapter",
+				"segment",
+				"episode"
+			],
+			"problem" : "It was mentioned in the previous ___ of this book that an awareness of the marketing environment has become a key element in the \"modern-day\" approach to marketing."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"represented",
+				"commissioned",
+				"contracted",
+				"permitted"
+			],
+			"problem" : "A group of experts ___ by the finance ministry is thought to have recommended much self-regulation."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"company",
+				"community",
+				"residence",
+				"association"
+			],
+			"problem" : "Drug trafficking is a matter of considerable concern for the entire international ___."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"detailed",
+				"complex",
+				"obvious",
+				"involved"
+			],
+			"problem" : "The whole ___ underground system is interlocked and related, and meticulously mapped."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"computer",
+				"generator",
+				"manufacturer",
+				"parameter"
+			],
+			"problem" : "The data can subsequently be loaded on a ___ for processing, which greatly improves work efficiency."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"elaboration",
+				"prediction",
+				"conclusion",
+				"resolution"
+			],
+			"problem" : "Scientists are still unable to come to a/an ___ as to the probable cause of earthquake."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"conducting",
+				"attending",
+				"regulating",
+				"conveying"
+			],
+			"problem" : "We are ___ a survey to find out what our customers think of their local bus service."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"structure",
+				"feasibility",
+				"quality",
+				"consequence"
+			],
+			"problem" : "This section of the report provides a ___ analysis of specific risks to wildlife that may be associated with the building of the dam."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"opposition",
+				"destruction",
+				"construction",
+				"instruction"
+			],
+			"problem" : "He strongly proposed the ___ of databases on hazardous sites and especially events such as those involving toxic releases."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"manufacturers",
+				"consumers",
+				"researchers",
+				"investors"
+			],
+			"problem" : "Agricultural companies have failed to convince ___ that genetically modified foods are safe, so the market demand was shrinking."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"error",
+				"credit",
+				"fault",
+				"resent"
+			],
+			"problem" : "The whole team deserves ___ for bringing the project in on time."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"political",
+				"financial",
+				"cultural",
+				"religious"
+			],
+			"problem" : "The ___ life of the country will sink into atrophy unless more writers and artists emerge."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"designed",
+				"invented",
+				"discovered",
+				"adapted"
+			],
+			"problem" : "The building isn't ___ very well from the point of view of wheelchair access."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"variation",
+				"transition",
+				"superiority",
+				"distinction"
+			],
+			"problem" : "Martin Luther King clearly understood and accepted the ___ between preaching and scholarly criticism."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"part",
+				"element",
+				"substance",
+				"component"
+			],
+			"problem" : "Disclosure of environmental information is an essential ___ in monitoring the progress towards achieving these objectives."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"relation",
+				"equation",
+				"association",
+				"comparison"
+			],
+			"problem" : "Profit can be calculated using the simple ___ P = R - C (Profit = Revenue minus Cost)."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"calculation",
+				"evaluation",
+				"generation",
+				"demonstration"
+			],
+			"problem" : "Based on its ___ of market conditions, the company had decided not to repurchase shares at this time."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"characters",
+				"trait",
+				"features",
+				"specialties"
+			],
+			"problem" : "With every software update comes new ___ to protect users, including parental controls and spam filtering."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"final",
+				"initial",
+				"primary",
+				"eventual"
+			],
+			"problem" : "Construction will be postponed until the council approves the building's ___ design."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"aim",
+				"point",
+				"focus",
+				"circle"
+			],
+			"problem" : "The media ___ on politicians' private lives inevitably switches the attention away from the real issues."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"result",
+				"force",
+				"impact",
+				"circle"
+			],
+			"problem" : "The increase in the number of young people leaving to work in the cities has had a dramatic ___ on the demography of the villages."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"ache",
+				"pain",
+				"wound",
+				"injury"
+			],
+			"problem" : "An employee who suffers personal ___ as a result of an act of violence may be eligible to receive an award from the Criminal Injuries Compensation Board."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"clinics",
+				"companies",
+				"businesses",
+				"institutes"
+			],
+			"problem" : "The state of Michigan has endowed three ___ to do research for industry."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"experiment",
+				"investment",
+				"operation",
+				"adventure"
+			],
+			"problem" : "There's been a significant ___ of time and energy in order to make the project a success."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"items",
+				"units",
+				"aspects",
+				"issues"
+			],
+			"problem" : "The United States wants to eliminate tariffs on ___ such as electronics."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"tabloid",
+				"journal",
+				"diary",
+				"manual"
+			],
+			"problem" : "A new online medical ___ devoted to neglected tropical diseases was founded last week."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"provision",
+				"precaution",
+				"perseverance",
+				"maintenance"
+			],
+			"problem" : "A leak in the pipeline was discovered during routine ___ and inspection work."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"habitual",
+				"normal",
+				"ordinary",
+				"typical"
+			],
+			"problem" : "The prison service should try to rehabilitate prisoners so that they can lead ___ lives when they leave prison."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"realized",
+				"obtained",
+				"contained",
+				"rewarded"
+			],
+			"problem" : "In the second experiment they ___ a very clear result."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"alienation",
+				"opposition",
+				"discrimination",
+				"participation"
+			],
+			"problem" : "Staff ___ in professional conferences is encouraged by the management."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"estimated",
+				"resumed",
+				"received",
+				"perceived"
+			],
+			"problem" : "Artificial intelligence is ___ to be a threat to employment."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"respective",
+				"positive",
+				"objective",
+				"destructive"
+			],
+			"problem" : "Some Wall Street analysts described the management shakeup as a timely and ___ step toward restoring the company's credibility."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"likely",
+				"capable",
+				"potential",
+				"probable"
+			],
+			"problem" : "We estimate the ___ market for the new phones to be around one million people in this country alone."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"earlier",
+				"before",
+				"front",
+				"previous"
+			],
+			"problem" : "It was mentioned in the ___ chapter that an awareness of the marketing environment has become a key element in the \"modern-day\" approach to marketing."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"primary",
+				"necessary",
+				"elemental",
+				"distinctive"
+			],
+			"problem" : "The Red Cross's ___ concern is to preserve and protect human life."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"invest",
+				"purchase",
+				"exchange",
+				"communicate"
+			],
+			"problem" : "Except under clearly defined circumstances, it is illegal in Britain for a company to ___ its own shares."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"ranging",
+				"extending",
+				"stretching",
+				"enlarging"
+			],
+			"problem" : "Several opponents have recently emerged, ___ from rival tech giants such as Microsoft and Amazon to small bodies representing authors and publishers across the world."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"lands",
+				"sectors",
+				"regions",
+				"districts"
+			],
+			"problem" : "Coastal ___ of the country have much better infrastructure and many more Internet users than others."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"regulations",
+				"allocations",
+				"obligation",
+				"participation"
+			],
+			"problem" : "Safety ___ are being ignored by company managers in the drive to increase profits."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"consistent",
+				"relevant",
+				"connected",
+				"agreeable"
+			],
+			"problem" : "The scientist corresponds with colleagues in order to learn about matters ___ to her own research."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"citizen",
+				"habitant",
+				"resident",
+				"client"
+			],
+			"problem" : "He entered the United States in 1988 as a permanent ___ because of his marriage to a U.S. citizen."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"substances",
+				"properties",
+				"materials",
+				"resources"
+			],
+			"problem" : "The earth has limited ___, and if we do not recycle them we will use them up."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"limited",
+				"restricted",
+				"qualified",
+				"defined"
+			],
+			"problem" : "Wellington Barracks is a ___ area and anyone who enters should have identification."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"security",
+				"capability",
+				"necessity",
+				"conformity"
+			],
+			"problem" : "The bank has taken additional ___ measures to ensure accounts are protected."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"thought",
+				"fought",
+				"sought",
+				"brought"
+			],
+			"problem" : "The mathematics of physics should be explored, but new mathematical, statistical, and qualitative methodologies should also be ___."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"selected",
+				"related",
+				"adopted",
+				"realized"
+			],
+			"problem" : "The bank has just been ___ as the preferred bidder for Brussels International Airport."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"land",
+				"site",
+				"scene",
+				"ground"
+			],
+			"problem" : "They're planning to develop the whole ___ into a shopping complex."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"strategy",
+				"method",
+				"technique",
+				"competence"
+			],
+			"problem" : "Their marketing ___ for the product involves obtaining as much free publicity as possible."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"license",
+				"survey",
+				"expectation",
+				"impression"
+			],
+			"problem" : "We are conducting a/an ___ to find out what our customers think of their local bus service."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"text",
+				"paper",
+				"essay",
+				"chapter"
+			],
+			"problem" : "The machine can recognize handwritten characters and turn them into printed ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"historical",
+				"customary",
+				"traditional",
+				"ancient"
+			],
+			"problem" : "The biggest problem with ___ print textbooks is that they cost hundreds of dollars every semester."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"transport",
+				"transfer",
+				"transition",
+				"translation"
+			],
+			"problem" : "There will be a ___ of capital and technology from this country to Mongolia."
+		}
+	]
+}

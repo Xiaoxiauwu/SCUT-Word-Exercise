@@ -1,0 +1,666 @@
+{
+	"name" : "Unit 3",
+	"problems" : 
+	[
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"another",
+				"alternative",
+				"available",
+				"alternate"
+			],
+			"problem" : "The State currently uses small electronic message boards to control traffic speeds and advise drivers of ___ routes around the Forth Road Bridge."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"circles",
+				"subsequences",
+				"consequences",
+				"circumstances"
+			],
+			"problem" : "Cases are infrequent, tending to occur in ___ which evoke compassion rather than condemnation."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"from",
+				"by",
+				"on",
+				"at"
+			],
+			"problem" : "Comments ___ John's mathematical development from other teachers made no reference to his strength in spatial skills."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"pressure",
+				"compensation",
+				"payment",
+				"amendment"
+			],
+			"problem" : "Those operations across the Channel can pose quite complicated legal problems concerning matters of ___ for loss of life, injury and damage to property."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"elements",
+				"components",
+				"substances",
+				"particles"
+			],
+			"problem" : "The addition of extra hardware boards or ___ in the computer can, with suitable software, provide such things as fast floating-point."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"consent",
+				"content",
+				"presence",
+				"commitment"
+			],
+			"problem" : "Testing patients without their ___ would constitute a professional and legal offence."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"generate",
+				"general",
+				"considerable",
+				"considerate"
+			],
+			"problem" : "The body and mind are closely linked and can exert ___ influence over one another."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"contrasts",
+				"constants",
+				"maintenances",
+				"contents"
+			],
+			"problem" : "We consider a first order language with a wide range of ___, a set of variables, a set of predicate names and no function symbols."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"control",
+				"hardship",
+				"constraints",
+				"problems"
+			],
+			"problem" : "While the system has a gold standard in quality for apprenticeships, this can impose ___ that make/makes it harder to adapt to new digital industries."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"distribution",
+				"contribution",
+				"cooperation",
+				"collaboration"
+			],
+			"problem" : "The paper examines the ___ that gender roles and identities make to the overall configuration of resources available to particular individuals."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"conclusions",
+				"conditions",
+				"conventions",
+				"contradictions"
+			],
+			"problem" : "Throughout the paper we adopt the following naming ___."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"coordination",
+				"conduction",
+				"corporation",
+				"production"
+			],
+			"problem" : "Rather than being regarded as a ubiquitous characteristic of other approaches, this article focuses on ___ between relevant factors as the foundation of an improved approach."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"heart",
+				"core",
+				"point",
+				"center"
+			],
+			"problem" : "The ___ is a sample of rock which allows geologists to examine the strata in proper sequence and thickness."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"income",
+				"selling",
+				"corporate",
+				"revenue"
+			],
+			"problem" : "Analysts are expecting share prices to fall in the first quarter of next year because of poor ___."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"similar",
+				"corresponding",
+				"following",
+				"previous"
+			],
+			"problem" : "To clarify this analysis, ___ income was up compared to that of the ___ period last year."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"steps",
+				"guidance",
+				"criteria",
+				"moves"
+			],
+			"problem" : "Researchers set out some simple ___ and began their enormous task."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"induction",
+				"deduction",
+				"introduction",
+				"production"
+			],
+			"problem" : "New tax regulations would cut the ___ for business lunches."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"displays",
+				"exhibits",
+				"certifies",
+				"demonstrates"
+			],
+			"problem" : "Perhaps this is not surprising, given the differences in simulation methods and parameters used, but it ___ the importance of further work in this area."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"reports",
+				"documents",
+				"sketches",
+				"keeps"
+			],
+			"problem" : "The field of molecular phylo-geography, which ___ the history of spatial isolation and geographic expansion of populations, has developed."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"advantageous",
+				"prominent",
+				"dominant",
+				"excellent"
+			],
+			"problem" : "Gram-positive bacteria were marked as ___ species in most cases, and biodiversity was rather high."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"emphasis",
+				"contribution",
+				"dedication",
+				"attention"
+			],
+			"problem" : "One of the prevailing themes of mid-century modern architecture is a nearly equal ___ on function and form."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"prove",
+				"ensure",
+				"admit",
+				"indicate"
+			],
+			"problem" : "Random assignment would ___ that all unmeasured confounding factors were equally distributed between comparison groups."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"included",
+				"involved",
+				"revolved",
+				"excluded"
+			],
+			"problem" : "Messages that are considered less relevant for a query are put lower in the list or are ___ from the display."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"outline",
+				"base",
+				"framework",
+				"foundation"
+			],
+			"problem" : "Our best chance of preventing such devastating acts of terror is to act within the ___ of international law."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"given",
+				"funded",
+				"founded",
+				"provided"
+			],
+			"problem" : "The regeneration program is ___ by EU money which has been collected from those member nations."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"illustrates",
+				"draws",
+				"writes",
+				"appoints"
+			],
+			"problem" : "The next example also ___ another feature of this model which is distinctively different from the other models."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"military",
+				"immigration",
+				"finance",
+				"education"
+			],
+			"problem" : "According to the order of “persons subject to ___ control”, these foreign students would have no access to local authority assistance."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"says",
+				"tells",
+				"conveys",
+				"implies"
+			],
+			"problem" : "The fact that the theoretical debate has moved to a meta level ___ that archaeology is developing into an intellectual discipline."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"beginning",
+				"intimate",
+				"initial",
+				"preparatory"
+			],
+			"problem" : "Economists had expected GDP growth to be revised upwards from last month's ___ estimate of 0.6%."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"conditions",
+				"stances",
+				"instances",
+				"samples"
+			],
+			"problem" : "There were several ___ of computer failure before the system worked properly."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"comparison",
+				"communication",
+				"interaction",
+				"conclusion"
+			],
+			"problem" : "His research aims at understanding consciousness as a natural biological phenomenon and at fruitful ___ between philosophical and empirical research in the study of consciousness."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"study",
+				"survey",
+				"calculation",
+				"justification"
+			],
+			"problem" : "It also provides an additional ___ of why targeted research on the distributional benefits of agricultural research is important."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"in",
+				"on",
+				"at",
+				"to"
+			],
+			"problem" : "The case examples show that commonality potential can be realized ___ different layers of the product architecture within a product family."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"responses",
+				"reactions",
+				"joints",
+				"links"
+			],
+			"problem" : "The inextricable ___ between health and people's human/natural environments create a basis for an ecological approach to health."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"profession",
+				"status",
+				"location",
+				"education"
+			],
+			"problem" : "The third type of operation involves feeding receivers' false ___ data, say, reporting the position of a person's cell phone a dozen or so miles from its actual position."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"minimum",
+				"maximum",
+				"increased",
+				"decreased"
+			],
+			"problem" : "The ___ load for this elevator is eight persons for the sake of safety and cost-efficiency."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"minimum",
+				"maximum",
+				"majority",
+				"minority"
+			],
+			"problem" : "___ refers to a group of people who share some characteristic by birth that makes their group smaller than some other groups in a society and may cause others to treat them unfairly."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"passive",
+				"active",
+				"negative",
+				"affirmative"
+			],
+			"problem" : "A/An ___ charge or current has the same electrical charge as an electron."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"ending",
+				"goal",
+				"finding",
+				"outcome"
+			],
+			"problem" : "All these possibilities should be weighed against the likely ___ in order to confirm the most applicable scheme."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"partnership",
+				"relationship",
+				"merger",
+				"league"
+			],
+			"problem" : "A ___ is a company that is owned by two or more people, who share in the risks and rewards of the business."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"physiology",
+				"psychology",
+				"biology",
+				"philosophy"
+			],
+			"problem" : "___ refers to theory or logical analysis of the principles underlying conduct, thought, knowledge, and the nature of the universe."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"physical",
+				"body",
+				"mental",
+				"phychological"
+			],
+			"problem" : "The program led by a group of scientists at home and abroad is designed to address both ____ and emotional health."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"width",
+				"place",
+				"position",
+				"proportion"
+			],
+			"problem" : "As shown in the graph above, the size of the window seems out of ____ to the height of the wall."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"rendered",
+				"denied",
+				"removed",
+				"published"
+			],
+			"problem" : "Last week the government ____ statistics suggesting that pupils attending the colleges performed less well than expected at the previous report."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"connection",
+				"response",
+				"reaction",
+				"action"
+			],
+			"problem" : "After century-long scientific study, scientists realize that ozone is produced by the ____ between oxygen and ultra-violet light."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"register",
+				"resign",
+				"assign",
+				"involve"
+			],
+			"problem" : "Many students ____ these courses to widen skills for use in their current jobs."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"against",
+				"on",
+				"to",
+				"with"
+			],
+			"problem" : "Manufacturers said that an increased reliance ____ imports of liquefied natural gas would result in more volatile prices."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"reduces",
+				"moves",
+				"removes",
+				"prevents"
+			],
+			"problem" : "This treatment ____ the most stubborn stains by soaking in a mild solution of bleach."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"schemes",
+				"procedures",
+				"schedules",
+				"connection"
+			],
+			"problem" : "Measures to speed up the planning process for ____ between schools and industry will be welcomed by both parties."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"ordering",
+				"sequencing",
+				"describing",
+				"depicting"
+			],
+			"problem" : "The technique offers a means of ____ the human genome much more quickly."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"human",
+				"sight",
+				"sense",
+				"sex"
+			],
+			"problem" : "____ is defined as either of the two major forms of individuals that occur in many species and that are distinguished respectively as female or male especially on the basis of their reproductive organs and structures."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"move",
+				"movement",
+				"shift",
+				"transfer"
+			],
+			"problem" : "In Physics, a ____ is a change in the observed frequency of a wave, as of light or sound."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"specify",
+				"suggest",
+				"request",
+				"remind"
+			],
+			"problem" : "As is known to all the students, the regulations ____ that calculators may not be used in the examination."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"efficient",
+				"sufficient",
+				"deficient",
+				"abundant"
+			],
+			"problem" : "An original paper should not include an extensive review of the literature, but only ____ references to indicate the purpose and relevance of the investigation."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"parts",
+				"bits",
+				"steps",
+				"tasks"
+			],
+			"problem" : "Fragmentation, the experience of work subdivided into a series of unconnected ____ not requiring the worker's full attention, is also a common experience."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"rhetorical",
+				"technical",
+				"skillful",
+				"resourceful"
+			],
+			"problem" : "Beyond the time used to discuss ___ issues like arrangements of the project, these meetings included time for members to build personal relationships and contacts."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"approaches",
+				"techniques",
+				"skills",
+				"methods"
+			],
+			"problem" : "On the other hand, organic production ___, particularly crop rotation, can reduce risk in the longer term."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"rules",
+				"fields",
+				"skills",
+				"technologies"
+			],
+			"problem" : "Dairy producers are experimenting with new ___ to reduce the cholesterol in milk."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"effectiveness",
+				"effect",
+				"validity",
+				"function"
+			],
+			"problem" : "There is no requirement for the content provider to check the ___ of the credit card number."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"numbers",
+				"volumes",
+				"quantity",
+				"quality"
+			],
+			"problem" : "The titles of the second and the third ___ do not mention concepts such as \"decline\", \"crisis\" or \"climaterium\"."
+		}
+	]
+}

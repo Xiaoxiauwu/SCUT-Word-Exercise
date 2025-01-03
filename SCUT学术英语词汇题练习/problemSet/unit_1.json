@@ -1,0 +1,666 @@
+{
+	"name" : "Unit 1",
+	"problems" : 
+	[
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"analysis",
+				"inspection",
+				"diagnosis",
+				"arrangement"
+			],
+			"problem" : "To explore the mode of inheritance further we performed a complex segregation ___."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"processing",
+				"approaching",
+				"accomplishing",
+				"accounting"
+			],
+			"problem" : "The amount of carbon dioxide in the air is rapidly ___ the limits proposed by the Intergovernmental Panel on Climate Change."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"size",
+				"area",
+				"space",
+				"land"
+			],
+			"problem" : "This mature Greensboro Country Park covers a/an ___ of 125 acres and is set in the countryside surrounding a reservoir."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"research",
+				"judgment",
+				"assessment",
+				"determination"
+			],
+			"problem" : "The MTFS made a deliberately modest ___ of future rates of economic growth."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"assume",
+				"pretend",
+				"guarantee",
+				"recognize"
+			],
+			"problem" : "It is reasonable to ___ that the economy will continue to improve and the unemployment rate will decrease."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"majority",
+				"authority",
+				"identity",
+				"community"
+			],
+			"problem" : "The federal government has the ___ to regulate phone service provided over the Internet."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"visible",
+				"present",
+				"available",
+				"feasible"
+			],
+			"problem" : "Little information is ___ on how much time was spent on labour activities once pupils had left school."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"defects",
+				"benefits",
+				"advantages",
+				"efficiency"
+			],
+			"problem" : "According to the survey, health care coverage costs too much and the ___ aren't good enough."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"origin",
+				"equation",
+				"concept",
+				"formula"
+			],
+			"problem" : "The topic of dynamics is based on the ___ that forces create movements which can be described as spatial changes within an all-controlling time domain."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"different",
+				"composed",
+				"consistent",
+				"contrary"
+			],
+			"problem" : "Despite these limitations, our results are ___ with previous studies that included pain assessment by patients and physicians."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"commercial",
+				"conventional",
+				"institutional",
+				"constitutional"
+			],
+			"problem" : "He wants a new government, possibly with ___ reform at the top of its agenda-including a blueprint for a stronger presidency."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"occasion",
+				"occurrence",
+				"status",
+				"context"
+			],
+			"problem" : "His proposals can only be understood in the current cultural ___ of our nation."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"contact",
+				"contract",
+				"settlement",
+				"assurance"
+			],
+			"problem" : "The services that this company must provide under the ___ have been made more specific to reflect the consumers' needs."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"create",
+				"cause",
+				"emerge",
+				"invent"
+			],
+			"problem" : "The technology is being used to ___ more flexibility for the employer rather than the employee."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"data",
+				"media",
+				"messages",
+				"figures"
+			],
+			"problem" : "Scientists hope that ___ from the space probe will pave the way for a more detailed exploration of Mars."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"dimension",
+				"precision",
+				"definition",
+				"description"
+			],
+			"problem" : "Blu-ray allows consumers to view movies and other programs in high ___, offering more than five times the storage capacity of traditional DVDs."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"directed",
+				"derived",
+				"produced",
+				"originated"
+			],
+			"problem" : "The criteria illustrated were ___ from an analysis of several topics selected from the Cockcroft Foundation list."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"division",
+				"distribution",
+				"separation",
+				"circulation"
+			],
+			"problem" : "Several studies have looked at the geographical ___ of doctors both in regions and in smaller districts."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"religious",
+				"academic",
+				"economic",
+				"artistic"
+			],
+			"problem" : "Government-led investment in infrastructure and technology aims to boost individual consumption and ___ competitiveness."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"territory",
+				"surroundings",
+				"environment",
+				"situation"
+			],
+			"problem" : "Technology facilitates aspects of our teaching ___ and practice that make these improvements possible."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"installed",
+				"organized",
+				"established",
+				"contradicted"
+			],
+			"problem" : "This set of principles and criteria are well ___ and almost uniformly accepted by experts in this field."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"considered",
+				"estimated",
+				"recognized",
+				"identified"
+			],
+			"problem" : "The new energy device mistakenly ___ the cost of electricity generation at around twice the likely figure."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"evidence",
+				"incident",
+				"element",
+				"example"
+			],
+			"problem" : "There is mounting ___ that people whose diets are rich in vitamins are less likely to develop some types of cancer."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"transport",
+				"transmit",
+				"export",
+				"convey"
+			],
+			"problem" : "This article tells you how to ___ files from UNIX to other computer systems."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"objects",
+				"factors",
+				"points",
+				"items"
+			],
+			"problem" : "Decisions are sometimes influenced by ___ such as the local authority's policies, political views of board members and the character of the appellant."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"cultural",
+				"financial",
+				"ecological",
+				"sociological"
+			],
+			"problem" : "Many studies have been undertaken to investigate the ___ sustainability of traditional pension systems and reform options from the macroeconomic standpoint."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"formula",
+				"principle",
+				"recipe",
+				"regulation"
+			],
+			"problem" : "He developed a mathematical ___ describing the distances of the planets from the Sun."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"effect",
+				"operation",
+				"function",
+				"application"
+			],
+			"problem" : "A school curriculum must fulfil its primary ___ of serving to open to new ideas the minds of those who follow it."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"resumed",
+				"associated",
+				"guaranteed",
+				"identified"
+			],
+			"problem" : "Contradiction between these two systems had been ___ as the driving force of change."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"incomes",
+				"rewards",
+				"profits",
+				"wages"
+			],
+			"problem" : "From 1973 to 1994 per capita ___ declined and this economic deterioration played a major role in bringing political change."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"appeared",
+				"emerged",
+				"exhibited",
+				"indicated"
+			],
+			"problem" : "There had been two smaller surveys whose results ___ some degree of disturbance in the population."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"separate",
+				"individual",
+				"singular",
+				"isolated"
+			],
+			"problem" : "The services are attractively priced and tailored to suit ___ requirements."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"translation",
+				"interpretation",
+				"assumption",
+				"composition"
+			],
+			"problem" : "The booklet is intended to provide a common ___ of these standards for use by the European chemical industry and certification bodies."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"provides",
+				"implies",
+				"involves",
+				"revolves"
+			],
+			"problem" : "The cumbersome and time-consuming method of voting, which ___ each member walking between two tellers and announcing his name, is partly designed to stop members sending their footmen to vote for them."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"issue",
+				"incident",
+				"activity",
+				"accident"
+			],
+			"problem" : "Since the key ___ is the psychological pressure that law can exert on every individual mind, the law must be clear, well diffused, and foreseeable."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"labour",
+				"power",
+				"leisure",
+				"function"
+			],
+			"problem" : "Employers use immigrants as a source of cheap ___ and this also usefully weakens the workforce politically by creating internal divisions."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"social",
+				"legal",
+				"religious",
+				"biological"
+			],
+			"problem" : "She won the court case, but she had to pay an enormous amount in ___ fees."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"religion",
+				"investigation",
+				"prescription",
+				"legislation"
+			],
+			"problem" : "The Data Protection Act is a piece of ___ aimed at protecting the privacy of the individual."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"major",
+				"heavy",
+				"light",
+				"tiny"
+			],
+			"problem" : "This problem calls for a ___ change in the content of our primary education and for the raising of the school entry age."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"way",
+				"form",
+				"manner",
+				"method"
+			],
+			"problem" : "This problem calls for the application of a scientific ___ to understand the fundamental processes of biology."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"occur",
+				"respond",
+				"originate",
+				"multiply"
+			],
+			"problem" : "If any of these symptoms ___ while you are taking the medication, consult your doctor immediately."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"rate",
+				"scale",
+				"percent",
+				"proportion"
+			],
+			"problem" : "Over ninety ___ of the world's data is indeed not held in a relational database, and it may not be appropriate for all forms of information."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"period",
+				"phase",
+				"level",
+				"session"
+			],
+			"problem" : "Unemployment in the first half of the year was 2.5 percent lower than in the same ___ of the year before."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"case",
+				"policy",
+				"option",
+				"issue"
+			],
+			"problem" : "A loose fiscal ___ would give the economy a badly needed short-term boost but would fail to deal with a variety of deeper problems."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"reality",
+				"standard",
+				"principle",
+				"regulation"
+			],
+			"problem" : "In ___, bonuses ought to fall when conditions get tough. In practice, they don't."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"processes",
+				"procedures",
+				"consequence",
+				"services"
+			],
+			"problem" : "This proposal is bound to stimulate the evolution of formal ___ for overcoming the obstacles met by investigators."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"proceeding",
+				"processing",
+				"producing",
+				"treating"
+			],
+			"problem" : "A bug in the computer system was preventing it from ___ digital image files."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"prescribed",
+				"required",
+				"demanded",
+				"requested"
+			],
+			"problem" : "Payments for emergency medical treatment, as ___ by the Road Traffic Acts, will not affect your no claim bonus."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"research",
+				"pursuit",
+				"access",
+				"measure"
+			],
+			"problem" : "Qualitative ___ is a process of naturalistic inquiry that seeks in-depth understanding of social phenomena within their natural setting."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"answer",
+				"response",
+				"reaction",
+				"feedback"
+			],
+			"problem" : "In ___ to rapidly dwindling forest resources, there are in many nations afforestation programmes on both small and large scales."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"role",
+				"task",
+				"duty",
+				"job"
+			],
+			"problem" : "The kidney plays a vital ___ in the removal of waste products from the blood."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"objects",
+				"sections",
+				"elements",
+				"regions"
+			],
+			"problem" : "This questionnaire was divided into several ___ because it was necessary to collect information about the dementia sufferer from different sources."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"sector",
+				"aspect",
+				"zone",
+				"sphere"
+			],
+			"problem" : "The finance for the project will come from both the government and the private ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"indifferent",
+				"temporary",
+				"significant",
+				"commonplace"
+			],
+			"problem" : "Research in the field of genito-urinary medicine has led to ___ health advances in the last decade."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"similar",
+				"common",
+				"likely",
+				"incline"
+			],
+			"problem" : "Critics fear increased congestion problems ___ to those experienced by airlines because of air traffic control difficulties."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"source",
+				"result",
+				"process",
+				"origin"
+			],
+			"problem" : "Experts are trying to track down the ___ of the contamination in the water supply."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"definite",
+				"specific",
+				"peculiar",
+				"especial"
+			],
+			"problem" : "A/An ___ provision in the agreement stated that research materials should not be used for commercial purposes."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"order",
+				"structure",
+				"design",
+				"layout"
+			],
+			"problem" : "They analysed the internal ___ of firms in the plastics, container and consumer food industries in terms of differentiation and integration."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"principle",
+				"theory",
+				"philosophy",
+				"generalization"
+			],
+			"problem" : "They are debating on the relationship between ___ and practice and the balance between conservation and innovation."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"variety",
+				"various",
+				"variations",
+				"variables"
+			],
+			"problem" : "Among the ___ that could prevent us from finishing the building are the weather and the availability of materials."
+		}
+	]
+}

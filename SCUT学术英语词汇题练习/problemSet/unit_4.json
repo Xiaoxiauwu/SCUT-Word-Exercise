@@ -1,0 +1,666 @@
+{
+	"name" : "Unit 4",
+	"problems" : 
+	[
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"with",
+				"to",
+				"on",
+				"between"
+			],
+			"problem" : "The system has been designed to give the user quick and easy access ___ the required information."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"available",
+				"valuable",
+				"adequate",
+				"limited"
+			],
+			"problem" : "Many tasks involve sensory information that is ambiguous, and other sources of information may be required for ___ perception."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"monthly",
+				"daily",
+				"weekly",
+				"annual"
+			],
+			"problem" : "The government has just launched the ___ Christmas campaign to stop drunken driving."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"transparent",
+				"apparent",
+				"necessary",
+				"prominent"
+			],
+			"problem" : "Various reasons are given for the ___ glass ceiling women hit in many professions."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"draws",
+				"concerns",
+				"approximates",
+				"shows"
+			],
+			"problem" : "The goal is to find the simplest possible algorithm that ___ the observed results."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"attitude",
+				"aptitude",
+				"altitude",
+				"latitude"
+			],
+			"problem" : "In other words, this analysis does not negate previous findings that opinion change and ___ stability vary by political sophistication."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"contributes",
+				"characters",
+				"attributes",
+				"particles"
+			],
+			"problem" : "Spatialisation models should take into account a couple of important physical ___ of a sounding object, namely its size and its radiation properties."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"personal",
+				"individual",
+				"financial",
+				"civil"
+			],
+			"problem" : "The equipment exhibited in this museum was all for ___ use during early 18th century, not for military."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"transformed",
+				"coded",
+				"programed",
+				"decoded"
+			],
+			"problem" : "To avoid bias in the laboratory, the samples were ___ with numbers rather than names of individuals."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"on",
+				"to",
+				"at",
+				"in"
+			],
+			"problem" : "The three examples considered internal factors, demonstrating how commitment ___ a thesis constrains interpretation of the evidence."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"transmission",
+				"exchanges",
+				"transportation",
+				"communications"
+			],
+			"problem" : "The ongoing revolution in information technology and ___ offers unlimited opportunities to improve social interaction."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"attention",
+				"concentration",
+				"focus",
+				"extent"
+			],
+			"problem" : "As indicated in a latest scientific report, the ozone ___ in the lower stratosphere has declined."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"speech",
+				"reference",
+				"conference",
+				"discussion"
+			],
+			"problem" : "An international medical ___ was established for the interchange of new ideas and approaches."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"complete",
+				"comply",
+				"abide",
+				"contrast"
+			],
+			"problem" : "This is in ___ to Group 3 species, which were not found in rice fields."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"circle",
+				"cycle",
+				"circulation",
+				"rotation"
+			],
+			"problem" : "The annual ___ structures many aspects of social life, not least the production of academic journals and the personal experience of growing older."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"approval",
+				"agreement",
+				"situation",
+				"debate"
+			],
+			"problem" : "In the academic circle, there is a heated ___ on how music is perceived, understood and used as an effective means of communication."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"Through",
+				"Though",
+				"Despite",
+				"But"
+			],
+			"problem" : "___ monitoring over 1000 potential recruits, this study has illustrated just how rarely a new individual enters the breeding population."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"amount",
+				"choices",
+				"sizes",
+				"dimensions"
+			],
+			"problem" : "Generally, DNA microarray (微阵列) data is information-rich, with multiple ___ of variability."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"homely",
+				"domestic",
+				"inward",
+				"intrinsic"
+			],
+			"problem" : "Generally speaking, manufacturing output for a company consists of both exports and sales on the ___ market."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"considered",
+				"showed",
+				"emerged",
+				"displayed"
+			],
+			"problem" : "In both of these studies maximizing choice and control over one's life ___ as key themes which underpinned these more specific outcomes."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"contents",
+				"scores",
+				"errors",
+				"details"
+			],
+			"problem" : "Further analysis examined three types of possible ___ at each level of the task."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"ethic",
+				"ethnic",
+				"gender",
+				"class"
+			],
+			"problem" : "Information about social class, ___ origin, employment status, type of housing tenure, and access to a car was obtained from the subjects."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"reasoning",
+				"means",
+				"goals",
+				"tools"
+			],
+			"problem" : "Otherwise, we would end up with endless analyses of many features without having defined the ___ of a given analysis."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"present",
+				"offer",
+				"lend",
+				"grant"
+			],
+			"problem" : "The court's decision, however, does not ___ unlimited discretion to the parents."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"nevertheless",
+				"whatever",
+				"however",
+				"hence"
+			],
+			"problem" : "Technical inefficiency is the deviation of an individual vessel's production from this best-practice frontier, and ___ is a measure of relative technical efficiency."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"theories",
+				"hypotheses",
+				"statements",
+				"analogies"
+			],
+			"problem" : "It is clear that some abstract robot representations have usefully tested some relatively specific biological ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"replacing",
+				"placing",
+				"implementation",
+				"implication"
+			],
+			"problem" : "The government's approach to settlement changed radically during the early ___ of the economic reform."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"implementation",
+				"meanings",
+				"significance",
+				"implications"
+			],
+			"problem" : "Distinguishing between these two alternative hypotheses has important ___ for the behavior of political parties."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"generates",
+				"imposes",
+				"produces",
+				"supposes"
+			],
+			"problem" : "Much of the existing work on the press ___ a clear division between the eighteenth and the nineteenth century.."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"integration",
+				"inclination",
+				"inclusion",
+				"comprehension"
+			],
+			"problem" : "Here is one model of multiculturalism that works: ___ without simply assuming that further persistence and intractability necessarily imply an organic genesis."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"inward",
+				"introvert",
+				"inside",
+				"internal"
+			],
+			"problem" : "Effects were found with two substantially different lists of words, each with good ___ consistency."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"provision",
+				"investigation",
+				"elaboration",
+				"calculation"
+			],
+			"problem" : "Further ___ is required, because the issues are too important for simply assuming that persistence and intractability necessarily imply an organic genesis."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"job",
+				"instruction",
+				"construction",
+				"administration"
+			],
+			"problem" : "The builders are aiming to get the ___ done by the end of the month."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"signal",
+				"sign",
+				"label",
+				"brand"
+			],
+			"problem" : "A ___ refers to a brief descriptive phrase or term given to a person, group, school of thought."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"description",
+				"mechanism",
+				"machinery",
+				"prescription"
+			],
+			"problem" : "In addition to treatment outcome, the trial sought to determine possible ___ of action or the problem-solving intervention."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"sensitive",
+				"derivative",
+				"obvious",
+				"decisive"
+			],
+			"problem" : "No straightforward arguments or ___ observations are known to answer this question."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"occasional",
+				"occupational",
+				"commercial",
+				"vocational"
+			],
+			"problem" : "This table further illustrates the variation in ___ range which can be found in different working populations of married women."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"choices",
+				"alternatives",
+				"options",
+				"selection"
+			],
+			"problem" : "At each potential branching point, all the ___ we consider are logically possible, but only one of them is physically or spiritually possible."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"product",
+				"output",
+				"outcome",
+				"input"
+			],
+			"problem" : "It learns from child-directed speech, and produces ___ that consists of actual utterances that can be directly compared to children's speech."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"whole",
+				"general",
+				"wholesome",
+				"overall"
+			],
+			"problem" : "The chapters illustrate a range of methods, although there is an/an ___ emphasis in favor of qualitative approaches."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"identical",
+				"diverse",
+				"dissimilar",
+				"parallel"
+			],
+			"problem" : "___ experiments in this research are being conducted in Rome, Paris and London so as to figure out the key factors influencing the outcome."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"paragraphs",
+				"parameters",
+				"diameters",
+				"monographs"
+			],
+			"problem" : "This model was used to analyze the raw data and estimate the ___ shown above directly from the data."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"praise",
+				"phrase",
+				"phase",
+				"face"
+			],
+			"problem" : "In Physics, a ___ is one of the forms in which matter can exist, such as solid, liquid, or a gas."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"assumed",
+				"predicted",
+				"foresaw",
+				"presumed"
+			],
+			"problem" : "These studies suggest that patient self-rated health ___ survival independently."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"principal",
+				"principle",
+				"dominant",
+				"dominated"
+			],
+			"problem" : "AIG Corporation also acts as a ___ investor in the energy and infrastructure sectors."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"superior",
+				"before",
+				"prior",
+				"preceding"
+			],
+			"problem" : "Applicants should have ___ experience of the pharmaceutical sector and relevant qualifications."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"amateur",
+				"professional",
+				"technical",
+				"casual"
+			],
+			"problem" : "These two books will be especially useful for editors, journalists, and other ___ users of the language."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"shot",
+				"placed",
+				"projected",
+				"released"
+			],
+			"problem" : "In every modern lecture hall, digital videos are usually ___ on a huge screen."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"boost",
+				"improve",
+				"increase",
+				"promote"
+			],
+			"problem" : "Share information and offer tips to followers to grow interest in your page and ___ your products."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"power",
+				"group",
+				"gang",
+				"regime"
+			],
+			"problem" : "Concerns have been raised over the insolvency ___ after the government highlighted serious regulatory faults."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"findings",
+				"consequences",
+				"resolutions",
+				"measures"
+			],
+			"problem" : "We then suggest possible sources and consequences of terminological confusion in developmental psychology and offer some potential ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"rebuilt",
+				"retarded",
+				"retained",
+				"redeemed"
+			],
+			"problem" : "Only those variables that were significantly different between the groups under comparison were ___ for the propensity score model."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"series",
+				"serials",
+				"sequence",
+				"sort"
+			],
+			"problem" : "The discipline has its own professors and academic structure, its own journals and ___ of publication."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"decisions",
+				"conclusion",
+				"statements",
+				"statistics"
+			],
+			"problem" : "The United States Department of Agriculture and the food industry collect sales ___ and keep accurate records."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"state",
+				"status",
+				"statue",
+				"condition"
+			],
+			"problem" : "The ___ of a nationally-famous brand would bring prestige to the producers and would secure higher prices."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"pointed",
+				"called",
+				"stressed",
+				"focused"
+			],
+			"problem" : "Residents who had been involved in preference relocations ___ the importance of having choices for their initial and subsequent moves into, within and between care-homes."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"to",
+				"against",
+				"with",
+				"at"
+			],
+			"problem" : "In many societies, both fictional and authentic, women are commonly depicted as subordinate ___ men."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"caught",
+				"summed",
+				"taken",
+				"brought"
+			],
+			"problem" : "Here is a real physical presence ___ up in one image following many hours of observation."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"conclusion",
+				"generalization",
+				"summary",
+				"sum"
+			],
+			"problem" : "Table 12.4 provides a ___ of how management perspectives have changed over the last 50 years."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"undermined",
+				"underlined",
+				"overtaken",
+				"undertaken"
+			],
+			"problem" : "Traditionally, the study of language loss has been ___ from a sociolinguistic rather than a psycholinguistic perspective."
+		}
+	]
+}
