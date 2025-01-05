@@ -724,7 +724,7 @@ bool PaintBoard(const char* label, const ImVec2& size_arg)
     //ImGui::RenderNavHighlight(bb, id);
     //ImGui::RenderFrame(bb.Min, bb.Max, col, true, style.FrameRounding);
 
-    //drawRect(pos.x, pos.y, size_arg.x, size_arg.y, ImVec4(1, 0, 1, 1), 1);
+    //drawRect(pos.x, pos.y, size_arg.x, size_arg.y, ImVec4(1, 0, 1, 1), 0);
     //ImGui::RenderTextClipped(bb.Min + style.FramePadding, bb.Max - style.FramePadding, label, NULL, &label_size, style.ButtonTextAlign, &bb);
 
     return pressed;

@@ -21,6 +21,9 @@ enum TAB {
     Main,
     ProblemsSetSelect,
     Exercise,
+    About,
+    EditorProblemSetSelect,
+    Editor,
 };
 
 Json::Value ProblemSets;//按名字建立键值映射对
@@ -106,6 +109,75 @@ bool isWApractise = 0;
 ImVec4 TinyButton[5];
 std::vector<Json::Value> Exercise_VisitedProblems, Exercise_UnvisitedProblems;
 //支持随机访问，删除的数据结构，vector开两个应该就行
+
+
+//=====================================处理题单编辑====================================//
+//  封装一个类会不会比较好
+//  你说得对，但是我懒得封了，到时候写出来个封装性极差，极难维护的东西怎么办
+//  那就封装
+
+class Editor {
+public:
+    Editor() {}
+    void loadDefault(std::string s) {//创建空题单
+        Problems = Json::Value();
+        Problems["name"] = s;
+        Problems["problems"] = Json::arrayValue;
+        
+        addNewProblem();
+    }
+
+    void load(Json::Value &R) {//从Json中导入现有题单
+        Problems = R;
+    }
+
+    Json::Value exportProblems() {//导出题单
+        return Problems;
+    }
+
+    int getSize() {
+        return Problems.size();
+    }
+
+    void rename(std::string& s) {
+        Problems["name"] = s;
+    }
+
+    void addNewProblem() {
+        Json::Value R;
+        R["problem"] = "请输入题目";
+        R["choices"] = Json::arrayValue;
+
+        R["choices"].append("请输入选项");
+        R["choices"].append("请输入选项");
+        R["choices"].append("请输入选项");
+        R["choices"].append("请输入选项");
+
+        R["answer"] = "A";
+
+        Problems["problems"].append(R);
+    }
+
+    void changeTitle(int i, std::string &s) {//修改题目
+        Problems["problems"][i]["problem"] = s;
+    }
+
+    void changeChoice(int i, int j, std::string& s) {//修改选项
+        Problems["problems"][i]["choices"][j] = s;
+    }
+
+    void changeAnswer(int i, int j) {//修改答案、不推荐选项设置的非常多，所以26个字母够用
+        if (j < 0 || j > Problems["problems"][i]["choices"].size()) return;
+        Problems["problems"][i]["answer"] = std::string("") + char('A' + j);
+    }
+
+    Json::Value& getProblem(int i) {//获取题目
+        return Problems["problems"][i];
+    }
+private:
+    Json::Value Problems;//用于编辑器编辑
+} editor;
+
 /////////////////////////////////////MAIN FUNCTION////////////////////////////////////////
 void EXIT() {
     Json::StreamWriterBuilder writebuild;
@@ -153,7 +225,7 @@ void refresh() {//刷新新题集
         Json::Value R = readJsonFromString(rawInfo);
         
         //std::cout << R["name"].asString() << "]\n";
-        ProblemSets[R["name"].asString()] = R;//重名会有覆盖，之后再改
+        ProblemSets[encode::UTF8_To_String(R["name"].asString())] = R;//重名会有覆盖，之后再改
     }
 }
 
@@ -265,6 +337,8 @@ void init(ID3D11Device* g_pd3dDevice) {
     }
     
     userInfo = R;
+
+    //std::cout << ProblemSets << "\n";
     
     while (TabStack.size()) TabStack.pop();
     TabStack.push(Main);
@@ -315,16 +389,23 @@ float animeTimeL = 0;
 float animeTimeR = 0;
 int FrameDelay = 300;
 
+std::vector<float> dx;
+bool rearrange = 0;
 ////////////////////////////FRAME
 void MAIN() {
-    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f });//    设置绘制指针
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f });
     drawText(width / 2, height / 4, height / 10, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), encode::string_To_UTF8("SCUT学术英语词汇练习"));
 
-    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f});//    设置绘制指针
-    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);//   设置绘制样式
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * (-1) });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
     if (ImGui::Button(u8"开始练习", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size()==0)   //  注册按钮类
     {
         //ButtonLock = 1;
+        for (int i = 0; i < dx.size(); i++) {
+            animeManager.unBind(&dx[i]);//解绑，防止清空vector的时候，anime还在更新不存在的值（虽然不太可能有这种情况出现）
+        }
+        dx.clear();
+        rearrange = 1;
         TabStack.push(TAB::ProblemsSetSelect);
         //animeManager.addAnime(&animeTimeL, 0, 1, FrameDelay, OutSine, 0, [&]() {//    注册动画
         //    ButtonLock = 0;
@@ -334,54 +415,8 @@ void MAIN() {
     }
     ImGui::PopStyleColor();
 
-    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + buttonwidth / kbw + gap});
-    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);//   设置绘制样式
-    if (ImGui::Button(u8"题库管理与编辑", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
-    {
-        ButtonLock = 1;
-        function<void(bool)> window = [&](bool alive)->void {
-            drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));
-            float w, h, x, y;//长宽，中心坐标
-            w = width / 2.8;
-            h = height / 4;
-            x = width / 2;
-            y = height / 2;
-            ImGui::SetCursorPos({ x - w / 2, y - h / 2 });
-            ImGui::BeginChild(
-                u8"咕咕",
-                ImVec2(w, h),
-                1,
-                ImGuiWindowFlags_NoResize |
-                ImGuiWindowFlags_NoSavedSettings
-            );
-            drawText(
-                w / 2, Screen_Width / 1024 * 24.0f / 2,
-                Screen_Width / 1024 * 24.0f / 2,
-                ImVec4(255, 255, 255, 255),
-                u8"Not Found"
-            );
-            ImGui::Indent(width / 30);
-            ImGui::SetCursorPos({ width / 30, Screen_Width / 1024 * 24.0f });
-            ImGui::Text(u8"暂时没写");
-
-            //ImGui::TextColored(ImVec4(255, 0, 0, 255), tip.c_str());
-
-            ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
-            ImGui::SetCursorPos({ w / 2 - buttonwidth / 2 / 2, h - buttonwidth / kbw * 1.3f });
-            if (ImGui::Button(u8"知道了", { buttonwidth / 2,buttonwidth / kbw }) && alive)
-            {
-                subWindow.pop_back();
-                ButtonLock = 0;
-            }
-            ImGui::PopStyleColor();
-            ImGui::EndChild();
-            };
-        subWindow.push_back({ window,0,0 });
-    }
-    ImGui::PopStyleColor();
-
-    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 2 });//    设置绘制指针
-    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);//   设置绘制样式
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 0 });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
     if (ImGui::Button(u8"错题练习", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
     {
         if (userInfo["WA"].size() == 0) {
@@ -455,8 +490,63 @@ void MAIN() {
     }
     ImGui::PopStyleColor();
 
-    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 3 });//    设置绘制指针
-    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);//   设置绘制样式
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 1 });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+    if (ImGui::Button(u8"题库管理", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
+    {
+        TabStack.push(TAB::EditorProblemSetSelect);
+        //ButtonLock = 1;
+        //function<void(bool)> window = [&](bool alive)->void {
+        //    drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));
+        //    float w, h, x, y;//长宽，中心坐标
+        //    w = width / 2.8;
+        //    h = height / 4;
+        //    x = width / 2;
+        //    y = height / 2;
+        //    ImGui::SetCursorPos({ x - w / 2, y - h / 2 });
+        //    ImGui::BeginChild(
+        //        u8"咕咕",
+        //        ImVec2(w, h),
+        //        1,
+        //        ImGuiWindowFlags_NoResize |
+        //        ImGuiWindowFlags_NoSavedSettings
+        //    );
+        //    drawText(
+        //        w / 2, Screen_Width / 1024 * 24.0f / 2,
+        //        Screen_Width / 1024 * 24.0f / 2,
+        //        ImVec4(255, 255, 255, 255),
+        //        u8"Not Found"
+        //    );
+        //    ImGui::Indent(width / 30);
+        //    ImGui::SetCursorPos({ width / 30, Screen_Width / 1024 * 24.0f });
+        //    ImGui::Text(u8"暂时没写");
+
+        //    //ImGui::TextColored(ImVec4(255, 0, 0, 255), tip.c_str());
+
+        //    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+        //    ImGui::SetCursorPos({ w / 2 - buttonwidth / 2 / 2, h - buttonwidth / kbw * 1.3f });
+        //    if (ImGui::Button(u8"知道了", { buttonwidth / 2,buttonwidth / kbw }) && alive)
+        //    {
+        //        subWindow.pop_back();
+        //        ButtonLock = 0;
+        //    }
+        //    ImGui::PopStyleColor();
+        //    ImGui::EndChild();
+        //    };
+        //subWindow.push_back({ window,0,0 });
+    }
+    ImGui::PopStyleColor();
+
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 2 });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+    if (ImGui::Button(u8"关于", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
+    {
+        TabStack.push(About);
+    }
+    ImGui::PopStyleColor();
+
+    ImGui::SetCursorPos({ width * 0.5f - buttonwidth / 2, height * 0.6f + (buttonwidth / kbw + gap) * 3 });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
     if (ImGui::Button(u8"退出", { buttonwidth,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
     {
         //ButtonLock = 1;
@@ -473,28 +563,143 @@ void MAIN() {
 }
 
 void PROBLEMSET() {
-    ImGui::SetCursorPos({ gap, gap + buttonwidth / kbw + gap});
+    static int list = 0;//0: 学术英语，1: 大学英语，2：所有题单
+    static float dy = gap + buttonwidth / kbw + gap;
+
+    float WIDTH = width / 3;
+    float HEIGHT = height - gap - buttonwidth / kbw - 2 * gap;
+
+    drawRect(gap + buttonwidth / kbw, dy, gap / 2, HEIGHT / 3, Color[ImGuiCol_Button]);
+
+    drawText(gap + buttonwidth / kbw / 2, gap + buttonwidth / kbw + gap + HEIGHT / 3 / 2, width / 40, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), u8"学\n术\n英\n语", 1);
+    ImGui::SetCursorPos({ gap ,gap + buttonwidth / kbw + gap });
+    if (PaintBoard(u8"学术英语", ImVec2(buttonwidth / kbw, HEIGHT / 3))) {
+        list = 0;
+        animeManager.addAnime(&dy, dy, gap + buttonwidth / kbw + gap, 300, InOutSine);
+
+        for (int i = 0; i < dx.size(); i++) {
+            animeManager.unBind(&dx[i]);//解绑，防止清空vector的时候，anime还在更新不存在的值
+        }
+        dx.clear();
+        rearrange = 1;
+
+        selected.clear();
+    }
+
+    drawText(gap + buttonwidth / kbw / 2, gap + buttonwidth / kbw + gap + HEIGHT / 3 / 2 + HEIGHT / 3, width / 40, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), u8"大\n学\n英\n语", 1);
+    ImGui::SetCursorPos({ gap ,gap + buttonwidth / kbw + gap + HEIGHT / 3 });
+    if (PaintBoard(u8"大学英语", ImVec2(buttonwidth / kbw, HEIGHT / 3))) {
+        list = 1;
+        animeManager.addAnime(&dy, dy, gap + buttonwidth / kbw + gap + HEIGHT / 3, 300, InOutSine);
+
+        for (int i = 0; i < dx.size(); i++) {
+            animeManager.unBind(&dx[i]);
+        }
+        dx.clear();
+        rearrange = 1;
+
+        selected.clear();
+    }
+
+    drawText(gap + buttonwidth / kbw / 2, gap + buttonwidth / kbw + gap + HEIGHT / 3 / 2 + HEIGHT / 3 * 2, width / 40, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), u8"所\n有\n题\n单", 1);
+    ImGui::SetCursorPos({ gap ,gap + buttonwidth / kbw + gap + HEIGHT / 3 * 2 });
+    if (PaintBoard(u8"所有题单", ImVec2(buttonwidth / kbw, HEIGHT / 3))) {
+        list = 2;
+        animeManager.addAnime(&dy, dy, gap + buttonwidth / kbw + gap + HEIGHT / 3 * 2, 300, InOutSine);
+
+        for (int i = 0; i < dx.size(); i++) {
+            animeManager.unBind(&dx[i]);
+        }
+        dx.clear();
+        rearrange = 1;
+
+        selected.clear();
+    }
+
+    ImGui::SetCursorPos({ gap + buttonwidth / kbw + gap, gap + buttonwidth / kbw + gap});
     ImGui::BeginChild(
-        u8"题集选择",
-        ImVec2(width / 3, height - gap - buttonwidth / kbw - 2 * gap),
+        u8"题单选择",
+        ImVec2(WIDTH, HEIGHT),
         1,
         ImGuiWindowFlags_NoResize |
         ImGuiWindowFlags_NoSavedSettings// |
         //ImGuiWindowFlags_NoMove
     );{
-        int cnt = 0;//万一有人把基础题库删了
-        for (int i = 0; i < 5; i++) {
-            std::string name = std::string("Unit ") + char('1' + i);
+        int cnt = 0;//万一有人把题库删了
+        if (list == 0) {
+            for (int i = 0; i < 10; i++) {
+                std::string name = std::string("学术英语 Unit ") + char('1' + i);
 
-            if (ProblemSets.isMember(name)) {
+                if (ProblemSets.isMember(name)) {
+                    if (dx.size() <= cnt) {
+                        dx.push_back(-(width / 3 - 2 * gap) - gap);
+                    }
+                    float WIDTH = width / 3 - 2 * gap;
+                    float HEIGHT = buttonwidth / kbw * 1.33;
+                    ImGui::SetCursorPos({ gap + dx[cnt], gap + (HEIGHT + gap) * cnt });//    设置绘制指针
+
+                    ImGui::PushStyleColor(ImGuiCol_Button, selected.count(name) ? ImVec4(162 / 255.0, 21 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_Button]);
+                    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, selected.count(name) ? ImVec4(162 / 255.0, 11 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonHovered]);
+                    ImGui::PushStyleColor(ImGuiCol_ButtonActive, selected.count(name) ? ImVec4(162 / 255.0, 16 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonActive]);
+                    if (ImGui::Button(encode::string_To_UTF8(name).c_str(), { WIDTH ,HEIGHT }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
+                    {
+                        if (selected.count(name)) {
+                            selected.erase(name);
+                        }
+                        else {
+                            selected.insert(name);
+                        }
+                        //Tab = TAB::Main;
+                    }
+                    ImGui::PopStyleColor(); ImGui::PopStyleColor(); ImGui::PopStyleColor();
+                    cnt++;
+                }
+            }
+        }
+        else if (list == 1) {
+            for (int i = 0; i < 10; i++) {
+                std::string name = std::string("大学英语 Unit ") + char('1' + i);
+
+                if (ProblemSets.isMember(name)) {
+                    if (dx.size() <= cnt) {
+                        dx.push_back(-(width / 3 - 2 * gap) - gap);
+                    }
+                    float WIDTH = width / 3 - 2 * gap;
+                    float HEIGHT = buttonwidth / kbw * 1.33;
+                    ImGui::SetCursorPos({ gap + dx[cnt], gap + (HEIGHT + gap) * cnt });//    设置绘制指针
+
+                    ImGui::PushStyleColor(ImGuiCol_Button, selected.count(name) ? ImVec4(162 / 255.0, 21 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_Button]);
+                    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, selected.count(name) ? ImVec4(162 / 255.0, 11 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonHovered]);
+                    ImGui::PushStyleColor(ImGuiCol_ButtonActive, selected.count(name) ? ImVec4(162 / 255.0, 16 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonActive]);
+                    if (ImGui::Button(encode::string_To_UTF8(name).c_str(), { WIDTH ,HEIGHT }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
+                    {
+                        if (selected.count(name)) {
+                            selected.erase(name);
+                        }
+                        else {
+                            selected.insert(name);
+                        }
+                        //Tab = TAB::Main;
+                    }
+                    ImGui::PopStyleColor(); ImGui::PopStyleColor(); ImGui::PopStyleColor();
+                    cnt++;
+                }
+            }
+        }
+        else {
+            for (auto &name_ : ProblemSets) {
+                if (dx.size() <= cnt) {
+                    dx.push_back(-(width / 3 - 2 * gap) - gap);
+                }
+                std::string name = encode::UTF8_To_String(name_["name"].asString());
                 float WIDTH = width / 3 - 2 * gap;
                 float HEIGHT = buttonwidth / kbw * 1.33;
-                ImGui::SetCursorPos({ gap, gap + (HEIGHT + gap) * cnt });//    设置绘制指针
+                ImGui::SetCursorPos({ gap + dx[cnt], gap + (HEIGHT + gap) * cnt});//    设置绘制指针
 
                 ImGui::PushStyleColor(ImGuiCol_Button, selected.count(name) ? ImVec4(162 / 255.0, 21 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_Button]);
                 ImGui::PushStyleColor(ImGuiCol_ButtonHovered, selected.count(name) ? ImVec4(162 / 255.0, 11 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonHovered]);
                 ImGui::PushStyleColor(ImGuiCol_ButtonActive, selected.count(name) ? ImVec4(162 / 255.0, 16 / 255.0, 44 / 255.0, 1.0f) : Color[ImGuiCol_ButtonActive]);
-                if (ImGui::Button(name.c_str(), {WIDTH ,HEIGHT}) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
+                if (ImGui::Button(encode::string_To_UTF8(name).c_str(), { WIDTH ,HEIGHT }) && !ButtonLock && subWindow.size() == 0)   //  注册按钮类
                 {
                     if (selected.count(name)) {
                         selected.erase(name);
@@ -508,6 +713,14 @@ void PROBLEMSET() {
                 cnt++;
             }
         }
+        
+        if (rearrange) {
+            rearrange = 0;
+            for (int i = 0; i < cnt; i++) {
+                animeManager.addAnime(&dx[i], dx[i], 0, 500, OutBack, 70 * i);
+            }
+        }
+
         if (ButtonLock) drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));
     }
     ImGui::EndChild();
@@ -544,7 +757,7 @@ void PROBLEMSET() {
                 );
                 ImGui::Indent(width / 30);
                 ImGui::SetCursorPos({ width / 30, Screen_Width / 1024 * 24.0f });
-                ImGui::Text(u8"请至少选择一组题集");
+                ImGui::Text(u8"请至少选择一组题单");
 
                 //ImGui::TextColored(ImVec4(255, 0, 0, 255), tip.c_str());
 
@@ -917,6 +1130,165 @@ void EXERCISE() {
     }
     ImGui::PopStyleColor();
 }
+
+void EDITORPROBLEMSETSELECTE() {
+    ImGui::BeginChild(u8"选择题单", { width,height }, 0, ImGuiWindowFlags_AlwaysVerticalScrollbar);
+    {
+        int cnt = 0;
+        float WIDTH = width * 2 / 3;
+        float HEIGHT = height / 5;
+
+        for (auto& problems : ProblemSets) {
+            ImGui::SetCursorPos({ width / 6, gap + cnt * (HEIGHT + gap)});
+            ImGui::BeginChild(
+                (problems["name"].asString()).c_str(),
+                ImVec2(WIDTH, HEIGHT),//height - gap - buttonwidth / kbw - 2 * gap),
+                1,
+                ImGuiWindowFlags_NoResize |
+                ImGuiWindowFlags_NoSavedSettings// |
+                //ImGuiWindowFlags_NoMove
+            ); {
+                
+                drawText(gap, gap, width / 35, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), (problems["name"].asString()), 0);
+                drawText(gap, gap + width / 35 + gap, width / 40, ImVec4(1.0f, 1.0f, 1.0f, 1.0f), encode::string_To_UTF8(std::string("题数：") + std::to_string(problems["problems"].size())), 0);
+
+                ImGui::SetCursorPos({ WIDTH - gap - buttonwidth / 2, HEIGHT - gap - buttonwidth / kbw - gap / 2});
+                ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+                if (ImGui::Button(u8"删除", { buttonwidth / 2, buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)
+                {
+                    ButtonLock = 1;
+                    function<void(bool)> window = [&](bool alive)->void {
+                        drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));
+                        float w, h, x, y;//长宽，中心坐标
+                        w = width / 2.8;
+                        h = height / 4;
+                        x = width / 2;
+                        y = height / 2;
+                        ImGui::SetCursorPos({ x - w / 2, y - h / 2 });
+                        ImGui::BeginChild(
+                            u8"空",
+                            ImVec2(w, h),
+                            1,
+                            ImGuiWindowFlags_NoResize |
+                            ImGuiWindowFlags_NoSavedSettings
+                        );
+                        drawText(
+                            w / 2, Screen_Width / 1024 * 24.0f / 2,
+                            Screen_Width / 1024 * 24.0f / 2,
+                            ImVec4(255, 255, 255, 255),
+                            u8"Warning"
+                        );
+                        ImGui::Indent(width / 30);
+                        ImGui::SetCursorPos({ width / 30, Screen_Width / 1024 * 24.0f });
+                        drawText_autoNewLine(width / 30, Screen_Width / 1024 * 24.0f, width / 50, ImVec4(1.0f, 0.0f, 0.0f, 1.0f), u8"确定要删除该题单吗？该操作不可恢复", width / 2.8 - width / 30, u8" ", 0);
+                        //ImGui::Text(u8"确定要删除该题单吗？该操作不可恢复");
+
+                        //ImGui::TextColored(ImVec4(255, 0, 0, 255), tip.c_str());
+
+                        ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+                        ImGui::SetCursorPos({ w / 2 - buttonwidth / 2 - gap, h - buttonwidth / kbw * 1.3f });
+                        if (ImGui::Button(u8"确定", { buttonwidth / 2,buttonwidth / kbw }) && alive)
+                        {
+                            //std::remove(std::string("problemSet/") + path[])
+                            //ProblemSets["problems"].removeMember(problems["name"].asString());//别在这里删，标记一下就行，下次再写吧
+                            //subWindow.pop_back();
+                            //ButtonLock = 0;
+                        }
+                        ImGui::PopStyleColor();
+
+                        ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+                        ImGui::SetCursorPos({ w / 2 + gap, h - buttonwidth / kbw * 1.3f });
+                        if (ImGui::Button(u8"算了", { buttonwidth / 2,buttonwidth / kbw }) && alive)
+                        {
+                            subWindow.pop_back();
+                            ButtonLock = 0;
+                        }
+                        ImGui::PopStyleColor();
+
+                        ImGui::EndChild();
+                        };
+                    subWindow.push_back({ window,0,0 });
+                }
+                ImGui::PopStyleColor();
+
+                if (ButtonLock) drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));
+            } ImGui::EndChild();
+
+            cnt++;
+        }
+
+    }
+
+    ImGui::SetCursorPos({ gap, gap + ImGui::GetScrollY() });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+    if (ImGui::Button(u8"Back", { buttonwidth / 4, buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)
+    {
+        TabStack.pop();
+    }
+    ImGui::PopStyleColor();
+
+    if (ButtonLock) drawRect(0, 0, width, height, ImVec4(0, 0, 0, 50));//?
+    ImGui::EndChild();
+}
+
+void EDITOR() {
+    ImGui::BeginChild(u8"题单编辑", { width,height }, 0, ImGuiWindowFlags_AlwaysVerticalScrollbar);
+
+    ImGui::SetCursorPos({ gap, gap + ImGui::GetScrollY() });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+    if (ImGui::Button(u8"Back", { buttonwidth / 4, buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)
+    {
+        TabStack.pop();
+    }
+    ImGui::PopStyleColor();
+
+    ImGui::EndChild();
+}
+
+void ABOUT() {
+    ImGui::BeginChild(u8"关于 ", { width,height }, 0, ImGuiWindowFlags_AlwaysVerticalScrollbar);
+    drawText(
+        width / 2, Screen_Width / 1024 * 24.0f / 2 + 2 * height / 50,
+        Screen_Width / 1024 * 24.0f,
+        ImVec4(255, 255, 255, 255),
+        u8"关于"
+    );
+    ImGui::Indent(width / 8);
+    drawText_autoNewLine(
+        width / 8,
+        Screen_Width / 1024 * 24.0f / 2 + 2 * height / 50 + 5 * width / 120,
+        Screen_Width / 1024 * 15.0f,
+        ImVec4(1, 1, 1, 1),
+        encode::string_To_UTF8(R"(本项目基于ImGui，用于高效地练习那些只需要背题库的考试的熟练度
+
+- 更新日志
+* v1.0.1beta
+BUG修复
+1. 修复了在错题练习中提前结算时，错题数量会被吃一大半的bug
+2. 改良了 “一键判题” 的逻辑
+
+* v1.0.0beta
+版本特性：
+1. 附带学术英语 Unit 1-5 的AWL词汇题题单
+2. 可任意选择题单进行随机抽题
+3. 错题练习
+
+项目地址：https://github.com/Xiaoxiauwu/SCUT-Word-Exercise
+)"),
+width * 7 / 8, u8" ", 0);
+    //ImGui::Separator();
+
+    ImGui::SetCursorPos({ gap,gap + ImGui::GetScrollY() });
+    ImGui::PushStyleColor(ImGuiCol_Button, Color[ImGuiCol_Button]);
+    if (ImGui::Button(u8"返回", { buttonwidth * 2 / kbw,buttonwidth / kbw }) && !ButtonLock && subWindow.size() == 0)
+    {
+        TabStack.pop();
+    }
+    ImGui::PopStyleColor();
+    //界面切换用的FRAMEMASK
+    //drawRect(swicthFrameL, 0, swicthFrameR, height, ImColor(0, 0, 0, 255));
+    ImGui::EndChild();
+}
 ////////////////////////////
 void MainUI() {
     if (TabStack.size() == 0) EXIT();
@@ -1046,6 +1418,15 @@ void MainUI() {
             break;
         case TAB::Exercise:
             EXERCISE();
+            break;
+        case TAB::EditorProblemSetSelect:
+            EDITORPROBLEMSETSELECTE();
+            break;
+        case TAB::Editor:
+            EDITOR();
+            break;
+        case TAB::About:
+            ABOUT();
             break;
     }
 
