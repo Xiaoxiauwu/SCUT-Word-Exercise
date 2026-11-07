@@ -51,8 +51,10 @@
 #include <mmsystem.h>
 #pragma comment(lib,"winmm.lib")
 
+#include "resource.h"
+
 //记得注释掉这句，不然没法debug
-//#pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"" ) 
+#pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"" ) 
 //using namespace std;
 
 #define IMVEC2_ADD2(p1, p2) ImVec2((p1).x + (p2).x, (p1).y + (p2).y)

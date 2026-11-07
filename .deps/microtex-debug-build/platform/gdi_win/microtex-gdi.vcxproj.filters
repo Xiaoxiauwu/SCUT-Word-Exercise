@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\platform\gdi_win\graphic_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\platform\gdi_win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96523354-5FB0-38E9-8B7E-AEC409724EAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

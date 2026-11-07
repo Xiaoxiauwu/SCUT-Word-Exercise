@@ -1,0 +1,66 @@
+{
+	"name" : "测试",
+	"order" : 1000,
+	"problems" : 
+	[
+		{
+			"answer" : "BILN",
+			"choices" : 
+			[
+				"请输入选项",
+				"请输入选项",
+				"请输\n入\n选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项"
+			],
+			"problem" : "请输入题目\nfg345\n\n23\n32\n4\n321",
+			"type" : "multiple"
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"过长选项自动转为每个选项占用单行的形式1111111111111111111111111111111111111111111111111111111111111111111",
+				"支持 tex公式显示 $$\nf\\left(\n   \\left[ \n \\frac{\n   1+\\left\\{x,y\\right\\}\n }{\n   \\left(\n      \\frac{x}{y}+\\frac{y}{x}\n   \\right)\n   \\left(u+1\\right)\n }+a\n   \\right]^{3/2}\n\\right)\n$$",
+				"$\\sqrt{123}$\n- 支持少量的 markdown 语法\n- 支持 [超链接跳转](https://github.com/Xiaoxiauwu/SCUT-Word-Exercise)，语法 `[](link)`",
+				"支持插入图片，语法 `![](p.jpg)`，图片资源请放到problemSet文件夹中\n ![](p.jpg)"
+			],
+			"problem" : "请输入题目$$\\sum_{n=1}^\\infty \\frac{1}{n^2} \\to\\textstyle \\sum_{n=1}^\\infty \\frac{1}{n^2} \\to\\displaystyle \\sum_{n=1}^\\infty \\frac{1}{n^2}$$",
+			"type" : "single"
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"支持代码块显示",
+				"支持#号开头的\n# 大标题",
+				"$\\color{#ff00ff}{123}$",
+				"支持向量机（x）"
+			],
+			"problem" : "\n## 01 / 完全背包\n```cpp\nint ZCbag(int V, std::vector<int> &w, std::vector<int> &v) {//    O(nV)\n    int n = w.size();\n    std::vector<int> f(V + 1);\n\n    for (int i = 0; i < n; i++) {\n        for (int j = V; j >= w[i]; j--) {//01\n        //for (int j = w[i]; j <= V; j++) {//完全\n            f[j] = std::max(f[j], f[j - w[i]] + v[i]);\n        }\n    }\n\n    return f[V];\n}\n```",
+			"type" : "single"
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"支持md表格",
+				"请输入选项",
+				"请输入选项",
+				"请输入选项"
+			],
+			"problem" : "\n| 颜色控制码      | 颜色                             |\n| ---------- | ------------------------------ |\n| red        | $\\color{red}red$               |\n| green      | $\\color{green}green$           |\n| blue       | $\\color{blue}blue$             |\n| pink       | $\\color{pink}pink$             |\n| lightgreen | $\\color{lightgreen}lightgreen$ |\n| lightblue  | $\\color{lightblue}lightblue$   |\n| orange     | $\\color{orange}orange$         |\n| cyan       | $\\color{cyan}cyan$             |\n| magenta    | $\\color{magenta}magenta$       |\n| purple     | $\\color{purple}purple$         |\n| brown      | $\\color{brown}brown$           |\n",
+			"type" : "single"
+		}
+	]
+}

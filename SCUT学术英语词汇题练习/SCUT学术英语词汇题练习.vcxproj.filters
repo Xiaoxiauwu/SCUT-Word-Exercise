@@ -69,6 +69,9 @@
     <ClInclude Include="Tool.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ImGui\imgui.cpp">
@@ -114,4 +117,36 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCUT Word Exersice.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="ExerciseSession.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIState.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIStorage.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIRuntime.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIDialogs.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UITheme.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIHome.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIProblemSetSelection.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIExercise.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIProblemSetManager.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIEditor.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClCompile Include="UIAbout.cpp"><Filter>源文件</Filter></ClCompile>
+    <ClInclude Include="ExerciseSession.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="ProblemSetEditor.h"><Filter>头文件</Filter></ClInclude>
+    <ClInclude Include="UIInternal.h"><Filter>头文件</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup><ClInclude Include="UILayout.h"><Filter>头文件</Filter></ClInclude></ItemGroup>
+  <ItemGroup><ClInclude Include="UIMarkdown.h"><Filter>头文件</Filter></ClInclude></ItemGroup>
+  <ItemGroup><ClCompile Include="UIMarkdown.cpp"><Filter>源文件</Filter></ClCompile></ItemGroup>
+  <ItemGroup><ClCompile Include="UIWrongAnswers.cpp"><Filter>源文件</Filter></ClCompile><ClInclude Include="QuestionModel.h"><Filter>头文件</Filter></ClInclude></ItemGroup>
 </Project>

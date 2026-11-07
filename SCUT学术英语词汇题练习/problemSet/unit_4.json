@@ -1,5 +1,6 @@
 {
 	"name" : "学术英语 Unit 4",
+	"order" : 3,
 	"problems" : 
 	[
 		{
@@ -446,10 +447,10 @@
 			"answer" : "D",
 			"choices" : 
 			[
-				"identical",
-				"diverse",
-				"dissimilar",
-				"parallel"
+				"Identical",
+				"Diverse",
+				"Dissimilar",
+				"Parallel"
 			],
 			"problem" : "___ experiments in this research are being conducted in Rome, Paris and London so as to figure out the key factors influencing the outcome."
 		},

@@ -1,0 +1,666 @@
+{
+	"name" : "学术英语 Unit 7",
+	"problems" : 
+	[
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"conversion",
+				"adaptation",
+				"modification",
+				"transformation"
+			],
+			"problem" : "Scientists think that a fear of heights is a successful ___ to our world, where falls from heights are dangerous."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"adults",
+				"adolescents",
+				"juniors",
+				"seniors"
+			],
+			"problem" : "Between 2000 and 2015, the share of young ___ between the ages of 25 and 34 with bachelor's degrees grew."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"encouraged",
+				"supported",
+				"upheld",
+				"advocated"
+			],
+			"problem" : "Three weeks after the tragic accident, the report issued on Monday ___ that all buildings be fitted with smoke detectors."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"service",
+				"care",
+				"treatment",
+				"aid"
+			],
+			"problem" : "Having a well-stocked first ___ kit near your swimming pool can help you take care of anything unexpected."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"channel",
+				"tunnel",
+				"media",
+				"agent"
+			],
+			"problem" : "Customers may favour an old and familiar ___ that works moderately well even when a new one might seem better."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"physical",
+				"ecological",
+				"chemical",
+				"physiological"
+			],
+			"problem" : "The ___ reactivity of a single substance covers its behavior in which it forms new substances by addition of atoms from another reactant or reactants."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"obvious",
+				"classical",
+				"noticeable",
+				"recognized"
+			],
+			"problem" : "In such cases in addition to the four ___ symptoms,affected individuals also have great difficulty in breathing."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"far-reaching",
+				"absolute",
+				"comprehensive",
+				"general"
+			],
+			"problem" : "This company offers competitive compensation package including ___ healthcare benefits starting on Day 1."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"with",
+				"of",
+				"in",
+				"at"
+			],
+			"problem" : "Apart from this,region-wise market analysis is done which comprises ___ key regions including U.S. and China."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"accepted",
+				"accustomed",
+				"settled",
+				"confirmed"
+			],
+			"problem" : "This epidemic was found in 1994 and since then, there have been 60 ___ outbreaks in horses resulting in the deaths of 100 animals."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"to",
+				"for",
+				"with",
+				"of"
+			],
+			"problem" : "A very recent study adds to the evidence contrary ___ this idea, but it is likely unavailable at the time being."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"changed",
+				"converted",
+				"reformed",
+				"transferred"
+			],
+			"problem" : "This is a rare opportunity to acquire one of the few ___ ships that were used for commercial trading in this country."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"set",
+				"course",
+				"duration",
+				"couple"
+			],
+			"problem" : "The experts believe the case for global warming in the last ___ of decades is strong, but they still need more evidence."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"centuries",
+				"times",
+				"decades",
+				"periods"
+			],
+			"problem" : "For ___, those trying to make better sunscreen found a roadblock at the Food and Drug Administration(FDA)."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"definite",
+				"defective",
+				"deferring",
+				"default"
+			],
+			"problem" : "It is not easy to reach any ___ conclusions based upon such a small sample of students from such widely different backgrounds."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"withhold",
+				"deny",
+				"reject",
+				"oppose"
+			],
+			"problem" : "Here, when you speak of the existence of God, you carefully avoid any positive affirmation: you neither affirm nor ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"separation",
+				"distraction",
+				"differentiation",
+				"segregation"
+			],
+			"problem" : "We can easily recognize man and ape, but at molecular level, this kind of ___ is not easy to obtain."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"with",
+				"at",
+				"in",
+				"for"
+			],
+			"problem" : "The experts suggest that there should be at least half a dozen pillows ___ the disposal of the patient, besides three or four for the head."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"dynamic",
+				"diversified",
+				"developed",
+				"dissolved"
+			],
+			"problem" : "The world-picture presented in this encyclopedia is that of a ___ universe, of phenomena in process of ceaseless change."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"eliminate",
+				"discard",
+				"cancel",
+				"ignore"
+			],
+			"problem" : "This diet claims to ___ toxins from the body, though still there is much controversy over its safety."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"descriptive",
+				"pragmatic",
+				"empirical",
+				"theoretical"
+			],
+			"problem" : "No ___ data support his claim that the birth of a baby with this syndrome makes the world or the baby unhappier."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"personnel",
+				"service",
+				"resource",
+				"equipment"
+			],
+			"problem" : "Meanwhile enough machinery and other ___ was being prepared and shipped from Canada to afford employment to 10, 000 men."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"extract",
+				"obtain",
+				"pull",
+				"squeeze"
+			],
+			"problem" : "Eventually the scientists found a reliable method to ___ sufficient DNA from the roots, and they did indeed find the virus."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"register",
+				"file",
+				"data",
+				"case"
+			],
+			"problem" : "And so there is no way that I can tell for sure that he was or he wasn't responsible, because we never did maintain a ___ in this direction."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"fixed",
+				"extra",
+				"scarce",
+				"finite"
+			],
+			"problem" : "Nowadays it has been recognized that many of the fuels we use to generate electricity—natural gas, oil, coal—are abundant yet ___."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"support",
+				"authority",
+				"infrastructure",
+				"foundation"
+			],
+			"problem" : "It was, in fact, the possibility of such conflict which was recognized by our theory as the origin and ___ of society."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"national",
+				"continental",
+				"global",
+				"universal"
+			],
+			"problem" : "After nearly forty years, the Cold War was still going on, but now the scale had expanded from the ___ to the interplanetary."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"degree",
+				"grade",
+				"achievement",
+				"standard"
+			],
+			"problem" : "It suddenly became a lot harder to apply for a long term visa, so those with poor English and a low education struggled to make the ___."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"guarantee",
+				"certificate",
+				"warrant",
+				"security"
+			],
+			"problem" : "After all, freeing hostages as goodwill gestures, without a ___ of some benefit, is not the way the terrorist group operates."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"hierarchical",
+				"irrational",
+				"proportional",
+				"operational"
+			],
+			"problem" : "The social structure of the Middle Ages accordingly assumed the ___ form which we speak of as the feudal system."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"for",
+				"to",
+				"among",
+				"in"
+			],
+			"problem" : "This had a very minimal impact, since the model used in X330 is essentially identical ___ what X299 had already defined."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"interpretation",
+				"connotation",
+				"concept",
+				"ideology"
+			],
+			"problem" : "A/An ___ is a collection of normative beliefs and values that an individual or group holds for and are unrelated to pursuing knowledge."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"implicated",
+				"inducted",
+				"inferred",
+				"interpreted"
+			],
+			"problem" : "A giant underground ocean could exist as well, and clues to its presence could be ___ by the geology or chemistry of Pluto's surface."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"innovation",
+				"modernization",
+				"deviation",
+				"variation"
+			],
+			"problem" : "We can say that the result was a system not open to alternatives from the outside and with no internal incentives for ___."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"insert",
+				"draw",
+				"push",
+				"cast"
+			],
+			"problem" : "When selecting the domestic charging mode, just ___ the special plug at the front of car into a common 220V domestic power socket."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"mediation",
+				"distraction",
+				"complication",
+				"intervention"
+			],
+			"problem" : "If we could prevent behavioural problems with an early ___, in the sense of public health it could be very important."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"Confined",
+				"Detached",
+				"Separated",
+				"Isolated"
+			],
+			"problem" : "___ lesbians learned that in society there were other women like them via books whose covers aimed to attract men."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"networks",
+				"media",
+				"communications",
+				"interactions"
+			],
+			"problem" : "Social ___ are interactive technologies that facilitate the creation and sharing of information, ideas, career interests and other forms of expression via virtual communities and networks."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"mode",
+				"status",
+				"condition",
+				"trend"
+			],
+			"problem" : "It points out that the new teaching ___ can make difficult knowledge easy to understand and vivid, thus producing better teaching results."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"paradigm",
+				"standard",
+				"sample",
+				"prototype"
+			],
+			"problem" : "In his new book, the author told different stories to show that the war was a ___ of the destructive side of human nature."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"miracle",
+				"phenomenon",
+				"reality",
+				"episode"
+			],
+			"problem" : "This revenue could be substantially higher, said the report, were it not for the global ___ of copyright theft."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"above",
+				"in",
+				"over",
+				"up"
+			],
+			"problem" : "Under such circumstance, the search for a new vaccine will take priority ___ all other medical research to save more lives."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"Prohibited",
+				"Problematic",
+				"Processed",
+				"Prolonged"
+			],
+			"problem" : "___ items are not allowed to enter, the examples of which are dangerous toys, cars that don't protect their occupants in a crash, or illegal substances."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"announcement",
+				"advertisement",
+				"disclosure",
+				"publication"
+			],
+			"problem" : "We can find that the shortest term of copyright exists in Greece, where it endures for but fifteen years from ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"question",
+				"quest",
+				"quotation",
+				"query"
+			],
+			"problem" : "As for the basis for establishing the Confederate States, consider a ___ from Mississippi's declaration of independence, adopted in 1861."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"leaked",
+				"released",
+				"surrendered",
+				"dropped"
+			],
+			"problem" : "In some ways, this man was the prime suspect because he had just been ___ from prison and fit the timeframe for this murder."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"reverse",
+				"reality",
+				"reason",
+				"rear"
+			],
+			"problem" : "That trend now looks almost certain to go into ___ in the next six months, even though the fall in prices seems unlikely to be dramatic."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"Stimulation",
+				"Stabilization",
+				"Simulation",
+				"Signification"
+			],
+			"problem" : "___ results indicate that this algorithm is effective and better than the traditional method based on adaptive filter."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"individually",
+				"wholly",
+				"solely",
+				"hardly"
+			],
+			"problem" : "By 2013, the company owed the lender about $35,000 per month— ___ in interest payments—and collapsed in debt."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"someway",
+				"somehow",
+				"somewhere",
+				"somewhat"
+			],
+			"problem" : "It was also found that in the experiment participants' attitudes were mixed and ___ negative, as they did not regard brain death as true death."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"deferred",
+				"yielded",
+				"retreated",
+				"submitted"
+			],
+			"problem" : "When ___ to the FDA, it was supposed to be labeled as a sweetener, because there was not a caloric penalty involved."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"successive",
+				"following",
+				"alternating",
+				"ensuing"
+			],
+			"problem" : "Perhaps it is better that hotels offer package deals through which visitors can visit all the talk-shows on three ___ nights."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"handle",
+				"last",
+				"remain",
+				"survive"
+			],
+			"problem" : "That life would have to ___ on comparatively little oxygen and water, and would have to be very tolerant of methane."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"contention",
+				"thesis",
+				"assumption",
+				"proposition"
+			],
+			"problem" : "In the meantime, the author hopes that this ___ can be helpful to other workers of scientific and technological management."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"on",
+				"in",
+				"with",
+				"to"
+			],
+			"problem" : "Remember if you decide to submit your website to a directory, make sure it's ___ topic, moderated. and well structured."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"transference",
+				"transportation",
+				"transmission",
+				"transition"
+			],
+			"problem" : "Still much needs to be done as there have been few credible studies linking the ___ of the virus between animals and humans."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"ultimately",
+				"basically",
+				"exclusively",
+				"occasionally"
+			],
+			"problem" : "The economists have no doubt that a portion of the debt will ___ need to be folded into a eurozone bond no matter what happens next year."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"to",
+				"with",
+				"on",
+				"under"
+			],
+			"problem" : "Eight of these nine types were common between rice and grain, whereas only one, known as F-type cycling, was unique ___ rice."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"striking",
+				"clear",
+				"evident",
+				"visible"
+			],
+			"problem" : "After passing through the Earth's atmosphere, most of the sun's energy is in the form of ___ and ultraviolet light."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"spontaneous",
+				"independent",
+				"deliberate",
+				"voluntary"
+			],
+			"problem" : "Faced with the fact that ___ contributions produce an inadequate park, the neighborhood turns to taxes."
+		}
+	]
+}

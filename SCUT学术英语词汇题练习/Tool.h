@@ -16,6 +16,7 @@ namespace encode
 std::ostream& operator<<(std::ostream& os, std::wstring_view str);
 
 void setFont(ImFont* F);
+void setTextScale(float scale);
 
 void drawRect(float x, float y, float w, float h, ImVec4 color, bool noRelated = 0);
 void drawText(float x, float y, float size, ImVec4 color, string text, bool iscenter = 1);
@@ -150,6 +151,8 @@ private:
 	std::map<std::string, std::wstring> Buttons;
 };
 
-bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, bool noDefault = 0, ImVec2 size_tex = { 0,0 }, int ID = -1);
+bool Button_tag(const char* label, const ImVec2& size_arg, const char* tag);
+
+bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, bool noDefault = 0, ImVec2 size_tex = { 0,0 }, int ID = -1, bool showTag = 1);
 
 double CIEDE2000(float R1, float G1, float B1, float R2, float G2, float B2);

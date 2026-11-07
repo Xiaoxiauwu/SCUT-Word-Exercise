@@ -1,0 +1,7 @@
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/CMakeFiles/INSTALL.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/CMakeFiles/ALL_BUILD.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/CMakeFiles/ZERO_CHECK.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/microtex.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/INSTALL.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/platform/gdi_win/CMakeFiles/microtex-gdi.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/platform/gdi_win/CMakeFiles/INSTALL.dir

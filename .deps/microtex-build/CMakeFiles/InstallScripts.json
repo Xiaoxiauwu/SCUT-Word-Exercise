@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-build/cmake_install.cmake",
+		"E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-build/lib/cmake_install.cmake",
+		"E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-build/platform/gdi_win/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

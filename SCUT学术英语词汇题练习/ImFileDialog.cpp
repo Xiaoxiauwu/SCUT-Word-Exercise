@@ -1,3 +1,8 @@
+// Keep Windows macros from expanding std::min/std::max in this implementation.
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+
 #if defined(_MSC_VER) && !defined(_CRT_SECURE_NO_WARNINGS)
 #define _CRT_SECURE_NO_WARNINGS
 #endif

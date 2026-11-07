@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_char.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_row.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_space.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_accent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_scripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_vrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_zstack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_sideset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_delim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_frac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_fence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\colors_def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_single.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\formula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\formula_def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\glue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\localized_num.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\debug_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_scripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_accent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_space.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_delims.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_frac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_styles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\env\env.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\env\units.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\string_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\utf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\clm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\fontsense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\glyph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\otf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\font_src.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\math_type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_char.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\font_style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\graphic_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\graphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\render\render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\render\builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B304BB0C-9366-3EE5-9E9A-468B17AF3EA2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

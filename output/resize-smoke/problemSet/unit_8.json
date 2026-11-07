@@ -1,0 +1,666 @@
+{
+	"name" : "学术英语 Unit 8",
+	"problems" : 
+	[
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"rejected",
+				"abandoned",
+				"quitted",
+				"withdrew"
+			],
+			"problem" : "The study which was conducted by a research institute showed a deep fear among the elderly of being ___ to the care of strangers."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"co-occurred",
+				"supplemented",
+				"accompanied",
+				"guided"
+			],
+			"problem" : "Excessive preoccupation with one's own well-being and interests is usually ___ by an inflated sense of self-importance."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"accumulation",
+				"acceleration",
+				"aggregation",
+				"addition"
+			],
+			"problem" : "Obesity is a medical condition in which the ___ of excess body fat has reached an extent that it may have a negative effect on health."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"ambitious",
+				"amazing",
+				"ambiguous",
+				"amiable"
+			],
+			"problem" : "This static, ___ and non-specific system creates uncertainty or indifference among the population that it is meant to help protect."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"attachment",
+				"acknowledgement",
+				"adjunct",
+				"appendix"
+			],
+			"problem" : "An ___, generally, is a section which is used to give extra information at the end of a book or document."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"realization",
+				"perception",
+				"comprehension",
+				"appreciation"
+			],
+			"problem" : "In ___ of Prince Lot's efforts to preserve Hawaian culture, the Prince Lot Hula Festival was established in 1978."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"arbitrary",
+				"irrational",
+				"subjective",
+				"willful"
+			],
+			"problem" : "Two hundred years ago, in 1765, nine assembled colonies first joined together to demand freedom from ___ power."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"repeatedly",
+				"automatically",
+				"unconsciously",
+				"immediately"
+			],
+			"problem" : "In some places in this country, teenagers accused of particularly heinous crimes are ___ tried as adults."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"tendency",
+				"inclination",
+				"preference",
+				"bias"
+			],
+			"problem" : "Anti-Americanism is a form of ___ against the institutions, nature or customs of the U.S. and, sometimes, against its people as well."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"outline",
+				"sketch",
+				"chart",
+				"blueprint"
+			],
+			"problem" : "This type of ___ grouping makes it easy to compare data from different parts of an application, or even across applications and servers."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"simplicity",
+				"clarity",
+				"precision",
+				"transparency"
+			],
+			"problem" : "But in a time of economic difficulty, businesses and organisations do look to their leaders for ___ of thought and decisive action."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"conformity",
+				"complication",
+				"comparison",
+				"complement"
+			],
+			"problem" : "Water used for agricultural production and solid waste used as fertilizers shall be in ___ with the standards set by the State."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"belonging",
+				"object",
+				"commodity",
+				"article"
+			],
+			"problem" : "Economists say that the correlations between industrial output and ___ prices began to fall apart a few years ago."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"for",
+				"in",
+				"over",
+				"to"
+			],
+			"problem" : "The author argues that the theory can be nothing but a complement ___ the theoretical trend of ethnological and anthropological studies in China."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"Contemporary",
+				"Concurrent",
+				"Conventional",
+				"Coincident"
+			],
+			"problem" : "___ history, in English-language historiography, is a subset of modern history which describes the historical period from approximately 1945 to the present."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"construction",
+				"contradiction",
+				"concentration",
+				"confirmation"
+			],
+			"problem" : "Such a ___ between species diversity and bamboo productivity put forward demands on bamboo forest management techniques."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"pressing",
+				"touchy",
+				"crucial",
+				"desperate"
+			],
+			"problem" : "The law did not yield many inventions, but it did send a ___ signal that government would be friendly to private start-ups."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"currency",
+				"cash",
+				"capital",
+				"chip"
+			],
+			"problem" : "A ___ refers to money in any form when in use or circulation as a medium of exchange, especially circulating banknotes and coins."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"refer to",
+				"indicate",
+				"mean",
+				"denote"
+			],
+			"problem" : "Scientists are interested in stripping language down to what it can exactly ___, while psychologists, poets and literary critics are interested in the hidden asociation words connote."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"distinguished",
+				"deceived",
+				"damaged",
+				"detected"
+			],
+			"problem" : "The residents also welcome statistics showing that the number of ___ crimes by young people continues to drop in recent months."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"to",
+				"from",
+				"with",
+				"in"
+			],
+			"problem" : "Many Germans see the purchases as a dangerous deviation ___ traditional monetary policy, and a step towards fiscal support."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"displacement",
+				"deportation",
+				"replacement",
+				"deposition"
+			],
+			"problem" : "The bloodiest instance of ___ of civilian population occurred in Turkman Gate, a slum whose inhabitants were overwhelmingly Muslim."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"powerful",
+				"emotional",
+				"dramatic",
+				"vivid"
+			],
+			"problem" : "However, these ___ increases in spending and teachers have not yielded a notable change in overall student outcomes."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"evidently",
+				"eventually",
+				"evocatively",
+				"eventfully"
+			],
+			"problem" : "The appreciation of RMB was likely to resume ___ at the same pace as prior to mid-2008, in other words about 7 percent a year."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"illustrate",
+				"feature",
+				"exhibit",
+				"advertise"
+			],
+			"problem" : "In the meantime, the doctor says the children who have survived from the accident ___ signs of serious psychological and emotional wounds."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"exposition",
+				"expression",
+				"experimentation",
+				"exploitation"
+			],
+			"problem" : "The ___ of natural resources is the use of natural resources for economic growth, sometimes with anegative meaning of accompanying environmental polution."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"filtrations",
+				"fluctuations",
+				"frustrations",
+				"functions"
+			],
+			"problem" : "When these assumptions are valid, risk is usually low, because large stock market ___ should be extremely rare."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"guidelines",
+				"guarantees",
+				"governances",
+				"graphics"
+			],
+			"problem" : "Because application and operating conditions differ widely, it is often not possible to give general ___ for the requisite preload."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"featured",
+				"introduced",
+				"explained",
+				"highlighted"
+			],
+			"problem" : "During the press conference, the Department of Defense ___ March as the first month without any U.S. combat deaths in Afghanistan."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"Impressive",
+				"Imaginary",
+				"Implicit",
+				"Imposing"
+			],
+			"problem" : "___ learning is the learning of complex information in an natural manner, without awareness of what has been learned."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"urged",
+				"convinced",
+				"induced",
+				"promoted"
+			],
+			"problem" : "For most of the men, starvation caused more than just weight loss: it also ___ many of the symptoms of significant depression."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"inefficiently",
+				"inevitably",
+				"internally",
+				"instinctively"
+			],
+			"problem" : "Sustained higher food bills in nearly every city ___ put pressure on wages, already increasing by an average 15 percent a year."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"Foundation",
+				"Groundwork",
+				"Basement",
+				"Infrastructure"
+			],
+			"problem" : "___ refers to the fundamental facilities and systems serving a country, city, or other area, including the services and facilities necessary for its economy to function."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"inquiry",
+				"investigation",
+				"inspection",
+				"inventory"
+			],
+			"problem" : "Still, even this roughened look had, on close ___, its slow fashion element: all the sleeves came with delicate hand-braided sleeves."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"anxiety",
+				"vitality",
+				"severity",
+				"intensity"
+			],
+			"problem" : "The key in this project is to begin to understand a city in terms of density, ___ and use, and its social and economic framework."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"manipulation",
+				"manifestation",
+				"modernization",
+				"moderation"
+			],
+			"problem" : "Market ___ is a type of market abuse where there is a deliberate attempt to interfere with the free and fair operation of the market."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"memorized",
+				"minimised",
+				"modified",
+				"multiplied"
+			],
+			"problem" : "Although financial globalisation has big costs,these can be ___ and potential gains can be increased by better policy."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"nerve",
+				"network",
+				"nuclear",
+				"nightmare"
+			],
+			"problem" : "The U.S. , preoccupied with Pyongyang's(平壤) ___ capability, has refused to restart six-country talks until Pyongyang dismantles that programme."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"to",
+				"against",
+				"with",
+				"for"
+			],
+			"problem" : "According to the latest regulation, the total refund amount will be offset ___ your first purchase and this refund can only be used once."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"paragraph",
+				"information",
+				"component",
+				"element"
+			],
+			"problem" : "When writing a headline,the editor simply does not compress the lead ___ into just a few words."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"same",
+				"additional",
+				"plus",
+				"best"
+			],
+			"problem" : "On the ___ side, fears that China's state-owned enterprises are masterfully mapping out a plan for world dominion appear fanciful."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"predictor",
+				"predecessor",
+				"promoter",
+				"practitioner"
+			],
+			"problem" : "Chinese acupuncture ___ recently pointed out in Shanghai that acupuncture cannot be utilized for all individuals and all diseases."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"predominantly",
+				"abundantly",
+				"imposingly",
+				"excessively"
+			],
+			"problem" : "Witnesses said the rioters in this city were ___ young men, who coordinated their actions through mobile devices."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"prospect",
+				"promise",
+				"prompt",
+				"property"
+			],
+			"problem" : "The report showed sluggish exports, with further deterioration in ___ as the global economy grinds towards recession."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"natural",
+				"severe",
+				"radical",
+				"primitive"
+			],
+			"problem" : "But most companies said it was clear that world leaders had not yet done enough to support a ___ change in business strategy."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"in",
+				"on",
+				"with",
+				"at"
+			],
+			"problem" : "With a good media campaign to create public awareness and fining ___ random, Nanchang and other cities could implement the law."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"represented",
+				"reinforced",
+				"released",
+				"removed"
+			],
+			"problem" : "WHO has ___ its presence in the country with the deployment of a senior epidemiologist, a logistician and a security office."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"renew",
+				"restore",
+				"renovate",
+				"refresh"
+			],
+			"problem" : "Men created the current financial mess; they need women to help them clear it up and ___ everyone's faith in the system."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"realization",
+				"reception",
+				"revision",
+				"recreation"
+			],
+			"problem" : "The idea is to spend a little bit of time at each ___ of your website and prevent the most common attacks on your site."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"schedule",
+				"script",
+				"scheme",
+				"scrutiny"
+			],
+			"problem" : "It was estimated that group earnings were boosted by large cost cuts and staff reductions, both running ahead of ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"balance",
+				"rigidity",
+				"tension",
+				"concern"
+			],
+			"problem" : "Anyone suggesting there was an ethnic basis to riots was trying to bring about ___ between different ethnic groups."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"temptation",
+				"toleration",
+				"termination",
+				"transcription"
+			],
+			"problem" : "A ___ of the program comes with useful diagnostic information, forcing the developer to fix the bug immediately."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"theory",
+				"thesis",
+				"thought",
+				"theme"
+			],
+			"problem" : "A ___ in an artist's work or in a work of literature is an idea in it that the artist or writer develops or repeats."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"thereafter",
+				"thereto",
+				"thereby",
+				"therein"
+			],
+			"problem" : "Automating your documentation's generation will help you keep it up to date and ___ make it more useful for your software's users."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"suit",
+				"gown",
+				"uniform",
+				"wear"
+			],
+			"problem" : "The object was a picture of a young man in the ___ of a captain in the German army during WW II."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"apparatus",
+				"vehicle",
+				"supplier",
+				"device"
+			],
+			"problem" : "A/An ___ is a machine that transports people or cargo including wagon, bicycle, motorcycle, car, truck, bus, train,tram, ship, boat,airplane, helicopter and spacecraft."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"with",
+				"in",
+				"at",
+				"via"
+			],
+			"problem" : "No definite conclusion is possible because it is unclear how much of Iran's trade with Europe is channelled ___ the UAE (United Arab Emirates)."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"vaguely",
+				"validly",
+				"virtually",
+				"variously"
+			],
+			"problem" : "As a result, it is ___ impossible for investors to understand how much exposure an institution really has to the subprime markets."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"widespread",
+				"epidemic",
+				"comprehensive",
+				"infinite"
+			],
+			"problem" : "Several months later, some evidence indicates that the ___ desire for a limit on executive pay might be beginning to be realised."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"visual",
+				"visionary",
+				"vital",
+				"vibrant"
+			],
+			"problem" : "Because there's a limit to how much ___ information the brain can process, it tends to pay attention to one thing at a time."
+		}
+	]
+}

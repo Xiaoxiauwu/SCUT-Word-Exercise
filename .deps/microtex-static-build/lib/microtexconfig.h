@@ -1,0 +1,7 @@
+#pragma once
+
+/* #undef HAVE_AUTO_FONT_FIND */
+
+#define MICROTEX_VERSION_MAJOR 1
+#define MICROTEX_VERSION_MINOR 0
+#define MICROTEX_VERSION_PATCH 0

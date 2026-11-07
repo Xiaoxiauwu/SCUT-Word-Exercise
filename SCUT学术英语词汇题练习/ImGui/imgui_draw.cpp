@@ -2160,8 +2160,8 @@ ImFont* ImFontAtlas::AddFontFromFileTTF(const char* filename, float size_pixels,
         IM_ASSERT_USER_ERROR(0, "Could not load font file!");
         return NULL;
     }
-    //  借他人之手导出字体文件
-    //  已经放弃了将字体文件内置到exe里的想法了，文件会扩大近四倍的空间
+    //  锟斤拷锟斤拷锟斤拷之锟街碉拷锟斤拷锟斤拷锟斤拷锟侥硷拷
+    //  锟窖撅拷锟斤拷锟斤拷锟剿斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷锟矫碉拷exe锟斤拷锟斤拷敕拷耍锟斤拷募锟斤拷锟斤拷锟斤拷锟斤拷锟侥憋拷锟侥空硷拷
 
     //std::ofstream ofile("save.h");
     //

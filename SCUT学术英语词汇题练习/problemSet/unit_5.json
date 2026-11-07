@@ -1,5 +1,6 @@
 {
 	"name" : "学术英语 Unit 5",
+	"order" : 4,
 	"problems" : 
 	[
 		{
@@ -77,7 +78,7 @@
 				"executes",
 				"deteriorates"
 			],
-			"problem" : "Pragmatism ___ the dominance in philosophy of the idea of the “mental eye”; of the idea of analysing perception and knowledge in terms of the model of mental seeing."
+			"problem" : "Pragmatism ___ the dominance in philosophy of the idea of the \"mental eye\"; of the idea of analysing perception and knowledge in terms of the model of mental seeing."
 		},
 		{
 			"answer" : "D",
@@ -187,7 +188,7 @@
 				"staff",
 				"energy"
 			],
-			"problem" : "A “renewable _____ source” is one which does not depend on finite reserves of either fossil or nuclear fuels."
+			"problem" : "A \"renewable _____ source\" is one which does not depend on finite reserves of either fossil or nuclear fuels."
 		},
 		{
 			"answer" : "C",
@@ -242,7 +243,7 @@
 				"expansion",
 				"grievance"
 			],
-			"problem" : "This economic _____ required a large number of unskilled as well as skilled recruits to a “labour force” from abroad because the locals were not willing to work long and unsocial hours with low wages coupled with poor and insecure working conditions."
+			"problem" : "This economic _____ required a large number of unskilled as well as skilled recruits to a \"labour force\" from abroad because the locals were not willing to work long and unsocial hours with low wages coupled with poor and insecure working conditions."
 		},
 		{
 			"answer" : "A",
@@ -308,7 +309,7 @@
 				"yawning",
 				"identity"
 			],
-			"problem" : "Despite much popular mythology about \"the ___ gap,\" such standards are startlingly similar to parental values, though the similarities are masked by different youth styles or expressions."
+			"problem" : "Despite much popular mythology about \"the ___ gap\", such standards are startlingly similar to parental values, though the similarities are masked by different youth styles or expressions."
 		},
 		{
 			"answer" : "A",

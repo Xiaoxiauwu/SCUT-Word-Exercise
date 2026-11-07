@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/Cmake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Program Files/Cmake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/Cmake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/CMakeLists.txt
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/microtexConfig.cmake.in
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/microtexconfig.h.in
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/test/has_filesystem.cpp

@@ -1,0 +1,5 @@
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-static-build/CMakeFiles/INSTALL.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-static-build/CMakeFiles/ALL_BUILD.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-static-build/CMakeFiles/ZERO_CHECK.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-static-build/lib/CMakeFiles/microtex.dir
+E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-static-build/lib/CMakeFiles/INSTALL.dir

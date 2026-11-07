@@ -1,0 +1,666 @@
+{
+	"name" : "学术英语 Unit 9",
+	"problems" : 
+	[
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"settlement",
+				"discrimination",
+				"accommodation",
+				"transmission"
+			],
+			"problem" : "The space released in Senate House will provide some much-needed additional office ___ for several newly elected members."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"to",
+				"in",
+				"by",
+				"of"
+			],
+			"problem" : "Genetic recombination is analogous ___ the process of producing one functional motor car by combining the engine from one broken-down car with the gearbox from another."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"hoped",
+				"awaited",
+				"prospected",
+				"anticipated"
+			],
+			"problem" : "The proportion of the over 65s has increased rather dramatically,although not as much as was once ___."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"pressure",
+				"assurance",
+				"credibility",
+				"insight"
+			],
+			"problem" : "Excellent preservice teacher education programs give ___ to the qualification of teachers in schools and help to improve the education quality."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"fulfill",
+				"realize",
+				"complete",
+				"attain"
+			],
+			"problem" : "It will only be when local female populations ___ the same educational standard as their male counterparts and take a key role in management decisions that substantial progress will be made."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"average",
+				"behalf",
+				"top",
+				"relation"
+			],
+			"problem" : "The solicitor acting on ___ of the purchaser will have the opportunity to examine the conditions prior to exchange of contracts."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"bulk",
+				"group",
+				"disguise",
+				"outlet"
+			],
+			"problem" : "Some customers believe that buying in ___ is more economical than shopping for small quantities."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"devotes",
+				"figures",
+				"ceases",
+				"refers"
+			],
+			"problem" : "As Yeltsin (叶利钦，俄罗斯首位总统) never ___ to point out, he is the one who has been legitimized by the Russian people in free elections, not parliament."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"coincidence",
+				"commerce",
+				"conscience",
+				"coherence"
+			],
+			"problem" : "The chief property of poetry is ___, not of a logical kind, but consisting in the harmonization of conflicting meanings or attitudes."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"from",
+				"with",
+				"above",
+				"behind"
+			],
+			"problem" : "The publication of Angell's book coincided ___ the triumph of a campaign to abolish slavery in the Congo."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"restrained",
+				"suspended",
+				"commenced",
+				"processed"
+			],
+			"problem" : "In 1816 the Leith and Hamburg Shipping Company ___ operations and in 1936 the two companies merged to form the Hull and Leith Steam Packet Company."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"incompatible",
+				"unfriendly",
+				"improper",
+				"mismatched"
+			],
+			"problem" : "In these poor regions, early marriage is clearly ___ with the formal schooling of women; the more educated the woman, the less likely she is to have ever married."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"concurrent",
+				"bicurrent",
+				"recurrent",
+				"current"
+			],
+			"problem" : "He was imprisoned for two ___ terms of 18 months and 30 months for robbing a shop and assaulting the shopkeeper."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"imprison",
+				"prevent",
+				"confine",
+				"deprive"
+			],
+			"problem" : "In this discussion, I will ___ myself to discussing examples of sexism from the English language, though of course it exists and has been analyzed in other languages too."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"conflict",
+				"debate",
+				"argument",
+				"controversy"
+			],
+			"problem" : "The president's decision has caused considerable ___ and been criticized as an excessive response to the problem."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"Similarly",
+				"Conversely",
+				"Especially",
+				"Particularly"
+			],
+			"problem" : "People who are driven to climb corporate ladders have parents who believe ladder climbing is important. ___, people who search in their careers for stability and structure acquire these values in their childhood."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"devices",
+				"tools",
+				"implements",
+				"appliances"
+			],
+			"problem" : "So-called biometric security ___ such as finger scanners are considered safer; they check finger prints to authenticate a person's identity before it is possible to gain entry to the system."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"focus",
+				"devote",
+				"center",
+				"addict"
+			],
+			"problem" : "She has in recent years been able to ___ more time to dressmaking and tailoring—arts which she has perfected to professional standards."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"destroy",
+				"enhance",
+				"diminish",
+				"increase"
+			],
+			"problem" : "The Act aimed to reinforce rather than to ___ parental responsibility by requiring the presence of parents in court and by increasing the courts' powers to require parents to pay fines for their children's offences."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"caters",
+				"fakes",
+				"wrecks",
+				"distorts"
+			],
+			"problem" : "The present system seriously ___ consumers' choice by depressing sales of Scotch whisky and encouraging the sales of other drinks."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"application",
+				"inspection",
+				"duration",
+				"solution"
+			],
+			"problem" : "The ___ of copyright may be extended across the European Community to a uniform seventy years from the year of death of the artist or author."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"format",
+				"erosion",
+				"medium",
+				"device"
+			],
+			"problem" : "The immediate priority is to stop these downward pressures and avoid any further ___ of confidence in the stability of the financial system in advanced countries."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"cultural",
+				"ethical",
+				"traditional",
+				"federal"
+			],
+			"problem" : "As well as raising ___ and moral issues, such a policy might reduce further the provision of beds in intensive care units for patients with illness from which they may recover."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"by",
+				"of",
+				"to",
+				"in"
+			],
+			"problem" : "The final records may exist ___ paper format, while the sources and the evidence for the process of document development are electronic."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"constructed",
+				"erected",
+				"founded",
+				"established"
+			],
+			"problem" : "The club was ___ in 1968 to foster understanding of the economic, political, religious and social factors that shape today's world, and to bring that new understanding to the attention of policy-makers and the public worldwide."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"inherent",
+				"natural",
+				"organic",
+				"objective"
+			],
+			"problem" : "Our results demonstrate the risks ___ in using present vegetation-climate relationships to reconstruct past climates from pollen or fossil records without incorporating potential direct effects of CO2."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"establish",
+				"conduct",
+				"attain",
+				"provide"
+			],
+			"problem" : "The course has been designed to ___ an insight into mutual support and team-building and is attended by both junior and senior levels of the company."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"complete",
+				"entire",
+				"integral",
+				"in dispensable"
+			],
+			"problem" : "Fieldwork, both at home and abroad, forms a/an ___ part of the course, and there is also an opportunity to gain experience of survey techniques, data analysis, and computing."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"intermediate",
+				"middle",
+				"difficult",
+				"foundational"
+			],
+			"problem" : "Beginners may not find the website useful as it is intended for ___ and advanced French-language students and teachers."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"Automatic",
+				"Manual",
+				"Artistic",
+				"Original"
+			],
+			"problem" : "___ work is physical work done by people, most especially in contrast to that done by machines, and to that done by working animals."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"elder",
+				"adult",
+				"mature",
+				"ripen"
+			],
+			"problem" : "It is now possible for ___ students, who would be 23 or over, to study to general degree level over a wide range of subjects entirely in the part-time evening mode."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"Allocation",
+				"Mediation",
+				"Innovation",
+				"Transition"
+			],
+			"problem" : "___ is much less formal than going to court, but the conflict resolution process does involve distinct stages designed to lead to a mutually beneficial compromise."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"medium",
+				"average",
+				"ordinary",
+				"common"
+			],
+			"problem" : "For towns of ___ size a big stake in the woollen textile industry was the surest foundation of prosperity."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"troop",
+				"combat",
+				"force",
+				"military"
+			],
+			"problem" : "The government had announced on Jan. 4 that ___ service was to be reduced from 18 to 12 months."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"abstract",
+				"minimal",
+				"symbolic",
+				"potential"
+			],
+			"problem" : "The particles are put into a vacuum with a/an ___ amount of heat, which turns the ice into steam, leaving the ground particles dry and ready for use."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"mutual",
+				"common",
+				"joint",
+				"corporate"
+			],
+			"problem" : "From 1932 onward, a deep ___ respect and musical understanding developed between these artists, and shone in everything they did together through to their final joint concert in Gothenburg on August 5th, 1960."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"managed",
+				"sought",
+				"became",
+				"undertook"
+			],
+			"problem" : "If Sunday working ___ the norm across the economy, the whole concept of the weekend, unsocial hours and premium pay, would be under threat as Sunday would be seen by more and more employers as a normal working day."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"to",
+				"among",
+				"from",
+				"with"
+			],
+			"problem" : "The language of science overlaps ___ that of ordinary life, but words like \"field\", \"elementary\" and \"family\" came to be used in the later nineteenth century in rather different senses in physics, chemistry and biology."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"submissive",
+				"dormant",
+				"rigid",
+				"passive"
+			],
+			"problem" : "Up to now the police have played a ___ role with the hippies,preferring to keep a watchful eye on them."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"fragment",
+				"portion",
+				"share",
+				"piece"
+			],
+			"problem" : "If a computer spends a significant ___ of its time in carrying out a particular sequence of steps, then performance could be improved by replacing these steps by a single instruction implemented as a microprogram."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"Preliminary",
+				"Selected",
+				"Internal",
+				"Brief"
+			],
+			"problem" : "___ results have shown good differentiation between science texts and general texts; although to what level of detail this can be applied remains unspecified."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"announcement ",
+				"instruction",
+				"protocol",
+				"lease"
+			],
+			"problem" : "On Oct. 21 Italy and Algeria signed a three-year ___ on co-operation in television and radio broadcasting, covering training, technical assistance, coproductions and exchange of programs."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"alternative",
+				"qualitative",
+				"distinctive",
+				"passive"
+			],
+			"problem" : "In marketing management, ___ research aims to find out people's opinions and feelings rather than information that can easily be shown in numbers."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"purified",
+				"cultivated",
+				"filtered",
+				"refined"
+			],
+			"problem" : "If something such as a process, theory, or machine is ___, it is improved by having small changes made to it."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"resolved",
+				"tightened",
+				"relaxed",
+				"crushed"
+			],
+			"problem" : "More recently, pediatric surgeons have ___ these criteria, such that very few infants would now be denied surgical treatment."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"without",
+				"against",
+				"among",
+				"between"
+			],
+			"problem" : "With open frontiers and lax visa controls, criminals could cross into the country ___ restraint."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"Uprising",
+				"Revolution",
+				"Change",
+				"Overthrow"
+			],
+			"problem" : "In the 19th century the invention of the steam engine and steam turbine helped power the Industrial ___."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"flexible",
+				"straight",
+				"rigid",
+				"serious"
+			],
+			"problem" : "Social class is more important and more ___ in many foreign countries, e. g. the Indian caste system (印度种姓制度)."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"route",
+				"path",
+				"lane",
+				"trail"
+			],
+			"problem" : "Within easy reach of the town centre and on a frequent bus ___, Wexford House stands in a large garden which will afford a pleasant area for future residents."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"diagnosis",
+				"function",
+				"challenge",
+				"scenario"
+			],
+			"problem" : "After a 2-month strike of government workers, the more likely ___ is that the president will resign and an election will be held."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"ability",
+				"sphere",
+				"power",
+				"resource"
+			],
+			"problem" : "They see the region as their natural ___ of influence due to their historical links and a shared language."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"subordinates",
+				"coworkers",
+				"partners",
+				"friends"
+			],
+			"problem" : "He doesn't consider his team-members as ___, always consulting them, always seeking consensus, always doing his best for them in the decisions he makes."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"environmental",
+				"protective",
+				"conservative",
+				"supplementary"
+			],
+			"problem" : "The local residents are collecting money to fund a/an ___ water supply in case the rain supply fails."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"delayed",
+				"postponed",
+				"suspended",
+				"prolonged"
+			],
+			"problem" : "He pleaded guilty of careless driving causing death in 2015 and was given a 12-month sentence ___ for 12 months."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"at",
+				"up",
+				"of",
+				"in"
+			],
+			"problem" : "Apple Computer Inc. is teaming ___ with trading house Uchida Yoko Co., Ltd. to expand its business with Japanese schools."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"temporary",
+				"momentary",
+				"transient",
+				"provisional"
+			],
+			"problem" : "If employees had to move into ___ accommodation while trying to find new housing, they received a tax-free allowance towards the cost of this accommodation for a maximum period of 13 weeks."
+		},
+		{
+			"answer" : "C",
+			"choices" : 
+			[
+				"managed",
+				"involved",
+				"triggered",
+				"rejected"
+			],
+			"problem" : "The normal change from larva to adult is ___ by the larva ceasing production of juvenile hormone."
+		},
+		{
+			"answer" : "D",
+			"choices" : 
+			[
+				"restraint",
+				"pursue",
+				"generate",
+				"unify"
+			],
+			"problem" : "A flexible retirement age is being considered by Ministers to ___ men's and women's pension rights."
+		},
+		{
+			"answer" : "B",
+			"choices" : 
+			[
+				"for",
+				"of",
+				"to",
+				"in"
+			],
+			"problem" : "The dolphin hunts are a violation ___ Chilean law, several international conventions, and customary international law."
+		},
+		{
+			"answer" : "A",
+			"choices" : 
+			[
+				"vision",
+				"sight",
+				"image",
+				"delusion"
+			],
+			"problem" : "He will have won because his ___ of future offered more hope to American voters than four more years of George Bush in charge."
+		}
+	]
+}

@@ -1,6 +1,8 @@
 #include "Tool.h"
 
 ImFont* Font_tiny;
+namespace { float textScale = 1.0f; }
+void setTextScale(float scale) { textScale = scale; }
 
 namespace encode
 {
@@ -126,6 +128,7 @@ void drawRect(float x, float y, float w, float h, ImVec4 color, bool noRelated) 
 }
 
 void drawText(float x, float y, float size, ImVec4 color, std::string text, bool iscenter) {
+    size *= textScale;
     ImGui::PushFont(Font_tiny);
     float Size = ImGui::GetFontSize();
     ImVec2 Rect = ImGui::CalcTextSize(text.c_str());
@@ -138,6 +141,7 @@ void drawText(float x, float y, float size, ImVec4 color, std::string text, bool
 }
 
 ImVec2 getTextSize_autoNewLine(float size, std::string text,float width) {
+    size *= textScale;
     ImGui::PushFont(Font_tiny);
     float Size = ImGui::GetFontSize();
     float k = size / Size;
@@ -160,6 +164,7 @@ ImVec2 getTextSize_autoNewLine(float size, std::string text,float width) {
 }
 
 void drawText_autoNewLine(float x, float y, float size, ImVec4 color, std::string text, float width, std::string tip, bool iscenter) {
+    size *= textScale;
     ImGui::PushFont(Font_tiny);
     float Size = ImGui::GetFontSize();
     ImVec2 Rect = ImGui::CalcTextSize(text.c_str(), 0, 0, width);
@@ -291,6 +296,7 @@ vector<ImVec4> rainbowColor = {
 };
 
 void drawText_RAINBOW(float x, float y, float size, std::string text, bool iscenter, std::string tip) {
+    size *= textScale;
     ImGui::PushFont(Font_tiny);
     float Size = ImGui::GetFontSize();
     ImVec2 Rect = ImGui::CalcTextSize(text.c_str());
@@ -321,6 +327,7 @@ void drawText_RAINBOW(float x, float y, float size, std::string text, bool iscen
 
 
 ImVec2 getTextSize(float size, std::string text) {
+    size *= textScale;
     ImGui::PushFont(Font_tiny);
     float Size = ImGui::GetFontSize();
     float k = size / Size;
@@ -910,7 +917,7 @@ void ImageLoader::ScaleImage(std::string baseImg, std::string saveAs, int w, int
     texture->Release();
 }
 
-bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, bool noDefault, ImVec2 size_tex, int ID) {
+bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, bool noDefault, ImVec2 size_tex, int ID, bool showTag) {
     if (!noDefault) {
         size_tex = size_arg;
     }
@@ -948,7 +955,7 @@ bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, boo
 
     ImVec2 lstCursorPos_End = ImGui::GetCursorPos();
 
-    if (ImGui::IsItemHovered() && sizeof(label) != 0)
+    if (ImGui::IsItemHovered() && sizeof(label) != 0 && showTag)
     {
         ImGui::SetTooltip(label);
     }
@@ -957,8 +964,57 @@ bool ImageButton(const char* label, const ImVec2& size_arg, ImTextureID tex, boo
     ImGui::Image(tex, size_tex);
     ImGui::SetCursorPos(lstCursorPos_End);
 
+
+
     return pressed;
 }
+
+bool Button_tag(const char* label, const ImVec2& size_arg, const char* tag)
+{
+    ImGuiButtonFlags flags = ImGuiButtonFlags_None;
+
+    ImGuiWindow* window = ImGui::GetCurrentWindow();
+    if (window->SkipItems)
+        return false;
+
+    ImGuiContext& g = *GImGui;
+    const ImGuiStyle& style = g.Style;
+    const ImGuiID id = window->GetID(tag);//标签与文本分离
+    const ImVec2 label_size = ImGui::CalcTextSize(label, NULL, true);
+
+    ImVec2 pos = window->DC.CursorPos;
+    if ((flags & ImGuiButtonFlags_AlignTextBaseLine) && style.FramePadding.y < window->DC.CurrLineTextBaseOffset) // Try to vertically align buttons that are smaller/have no padding so that text baseline matches (bit hacky, since it shouldn't be a flag)
+        pos.y += window->DC.CurrLineTextBaseOffset - style.FramePadding.y;
+    ImVec2 size = ImGui::CalcItemSize(size_arg, label_size.x + style.FramePadding.x * 2.0f, label_size.y + style.FramePadding.y * 2.0f);
+
+    const ImRect bb(pos, pos + size);
+    ImGui::ItemSize(size, style.FramePadding.y);
+    if (!ImGui::ItemAdd(bb, id))
+        return false;
+
+    if (g.LastItemData.InFlags & ImGuiItemFlags_ButtonRepeat)
+        flags |= ImGuiButtonFlags_Repeat;
+
+    bool hovered, held;
+    bool pressed = ImGui::ButtonBehavior(bb, id, &hovered, &held, flags);
+
+    // Render
+    const ImU32 col = ImGui::GetColorU32((held && hovered) ? ImGuiCol_ButtonActive : hovered ? ImGuiCol_ButtonHovered : ImGuiCol_Button);
+    ImGui::RenderNavHighlight(bb, id);
+    ImGui::RenderFrame(bb.Min, bb.Max, col, true, style.FrameRounding);
+
+    if (g.LogEnabled)
+        ImGui::LogSetNextTextDecoration("[", "]");
+    ImGui::RenderTextClipped(bb.Min + style.FramePadding, bb.Max - style.FramePadding, label, NULL, &label_size, style.ButtonTextAlign, &bb);
+
+    // Automatically close popups
+    //if (pressed && !(flags & ImGuiButtonFlags_DontClosePopups) && (window->Flags & ImGuiWindowFlags_Popup))
+    //    CloseCurrentPopup();
+
+    IMGUI_TEST_ENGINE_ITEM_INFO(id, label, g.LastItemData.StatusFlags);
+    return pressed;
+}
+
 
 // 辅助函数，将RGB值转换为CIELAB颜色空间
 void RGBtoLAB(float R, float G, float B, double& L, double& a, double& b) {

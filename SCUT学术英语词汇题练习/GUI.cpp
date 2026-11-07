@@ -1,4 +1,5 @@
-#include "GUI.h"
+ï»¿#include "GUI.h"
+#include "UIMarkdown.h"
 
 static ID3D11Device* g_pd3dDevice = NULL;
 static ID3D11DeviceContext* g_pd3dDeviceContext = NULL;
@@ -65,14 +66,14 @@ void CleanupRenderTarget()
 }
 
 int WORK() {
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("SCUT Ñ§ÊõÓ¢Óï´Ê»ãÌâÁ·Ï°"), NULL };
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("SCUT Ñ§ï¿½ï¿½Ó¢ï¿½ï¿½Ê»ï¿½ï¿½ï¿½ï¿½ï¿½Ï°"), NULL };
     //static HICON ico = LoadIcon(wc.hInstance, MAKEINTRESOURCE(IDI_ICON1));
     //static HICON ico22 = LoadIcon(wc.hInstance, MAKEINTRESOURCE(IDI_ICON2));
     //wc.hIcon = ico22;
     //wc.hIconSm = ico;
     
     ::RegisterClassEx(&wc);
-    HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("SCUT Ñ§ÊõÓ¢Óï´Ê»ãÌâÁ·Ï°"), WS_OVERLAPPEDWINDOW, 100, 100, 1, 1, NULL, NULL, wc.hInstance, NULL);
+    HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("SCUT Ñ§ï¿½ï¿½Ó¢ï¿½ï¿½Ê»ï¿½ï¿½ï¿½ï¿½ï¿½Ï°"), WS_OVERLAPPEDWINDOW, 100, 100, 1, 1, NULL, NULL, wc.hInstance, NULL);
 
     //SendMessage(hwnd, WM_SETICON, ICON_BIG, (LPARAM)ico);
     //SendMessage(hwnd, WM_SETICON, FALSE, (LPARAM)ico);
@@ -110,17 +111,15 @@ int WORK() {
     //ImFont* Font_Big = io.Fonts->AddFontFromMemoryTTF((void*)Font_data, Font_size, 24.0f, &Font_cfg, io.Fonts->GetGlyphRangesChineseFull());
     //ImFont* Font = io.Fonts->AddFontFromFileTTF("Source Han Sans & Saira Hybrid-Regular.ttf", 18.0f, &Font_cfg, io.Fonts->GetGlyphRangesChineseFull());
     //ImFont* Font_Big = io.Fonts->AddFontFromFileTTF("Source Han Sans & Saira Hybrid-Regular.ttf", 24.0f, &Font_cfg, io.Fonts->GetGlyphRangesChineseFull());
-    if (checkFile(L"res\\Source Han Sans & Saira Hybrid-Regular.ttf")) {//  ÓÅÏÈÑ¡ÔñresÀïµÄÕâ¸ö×ÖÌå   
+    if (checkFile(L"res\\Source Han Sans & Saira Hybrid-Regular.ttf")) {//  ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½resï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   
         ImFont* Font = io.Fonts->AddFontFromFileTTF("res\\Source Han Sans & Saira Hybrid-Regular.ttf", MIN(1561, GetSystemMetrics(SM_CXSCREEN)) / 1024 * 18.0f, &Font_cfg, io.Fonts->GetGlyphRangesChineseFull());
     }
     else {
-        //  ·ÀÖ¹ÓÃ»§ÎóÉ¾×ÖÌåÎÄ¼þ£¬ÓÃ»§»»±ðµÄ×ÖÌåÎÄ¼þµÄ»°£¬²»Ò»¶¨±£Ö¤×Ö¿â°üº¬ÖÐÎÄ£¬ËùÒÔÓÃ×Ô¼º×Ô´øµÄ
+        //  ï¿½ï¿½Ö¹ï¿½Ã»ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ö¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½Ô´ï¿½ï¿½ï¿½
         ImFont* Font = io.Fonts->AddFontFromMemoryTTF((void*)Font_data, Font_size, MIN(1561, GetSystemMetrics(SM_CXSCREEN)) / 1024 * 18.0f, &Font_cfg, io.Fonts->GetGlyphRangesChineseFull());
     }
 
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
-
-    getScreenRect();
 
     init(g_pd3dDevice);
 
@@ -144,7 +143,7 @@ int WORK() {
         ImGui_ImplWin32_NewFrame();
         ImGui::NewFrame();
 
-        MainUI();//   Ö÷UI
+        MainUI();//   ï¿½ï¿½UI
 
         ImGui::Render();
         const float clear_color_with_alpha[4] = { clear_color.x * clear_color.w, clear_color.y * clear_color.w, clear_color.z * clear_color.w, clear_color.w };
@@ -163,6 +162,7 @@ int WORK() {
 
     
 
+    scut_ui::ShutdownLatexRenderer();
     ImGui_ImplDX11_Shutdown();
     ImGui_ImplWin32_Shutdown();
     ImGui::DestroyContext();

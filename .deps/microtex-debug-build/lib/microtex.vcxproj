@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B6FC510-5846-3B13-9C3E-8542062D9656}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>microtex</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">microtex.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">microtex</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">microtex.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">microtex</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">microtex.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">microtex</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">microtex.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">microtex</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MICROTEX_STATIC;_HAS_STD_BYTE=1;GRAPHICS_DEBUG;GLYPH_RENDER_TYPE=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib;E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\Cmake\bin\cmake.exe" "-SE:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd" "-BE:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build" --check-stamp-file "E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexConfig.cmake.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexconfig.h.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\test\has_filesystem.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\Cmake\bin\cmake.exe" "-SE:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd" "-BE:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build" --check-stamp-file "E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexConfig.cmake.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexconfig.h.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\test\has_filesystem.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\Cmake\bin\cmake.exe" "-SE:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd" "-BE:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build" --check-stamp-file "E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexConfig.cmake.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexconfig.h.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\test\has_filesystem.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\Cmake\bin\cmake.exe" "-SE:/CODE/C/PJ/SCUT Word Exercise/.deps/MicroTeX_richmd" "-BE:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build" --check-stamp-file "E:/CODE/C/PJ/SCUT Word Exercise/.deps/microtex-debug-build/lib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\Cmake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\Cmake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\Cmake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexConfig.cmake.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtexconfig.h.in;E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\test\has_filesystem.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_basic.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_char.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_misc.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_matrix.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_row.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_space.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_stack.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_accent.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_scripts.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_vrow.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_operator.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_zstack.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_sideset.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_font.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_delim.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_root.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_frac.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_fence.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_box.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\atom_text.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\atom\colors_def.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_factory.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_group.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\box\box_single.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\split.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\formula.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\formula_def.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\glue.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\localized_num.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\parser.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\core\debug_config.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_def.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_misc.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_scripts.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_accent.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_colors.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_space.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_delims.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_frac.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_styles.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\macro\macro_fonts.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\env\env.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\env\units.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\string_utils.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\utf.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\utils\utils.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\clm.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\fontsense.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\glyph.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\otf.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\otf\path.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\font_src.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\math_type.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_char.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_font.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\unimath\uni_symbol.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\font_style.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\graphic_basic.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\graphic\graphic.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\render\render.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\render\builder.cpp" />
+    <ClCompile Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\MicroTeX_richmd\lib\microtex.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\CODE\C\PJ\SCUT Word Exercise\.deps\microtex-debug-build\ZERO_CHECK.vcxproj">
+      <Project>{CA3EABF5-6A4A-306E-84F8-457767F06A86}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
